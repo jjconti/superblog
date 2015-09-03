@@ -1,0 +1,7 @@
+<html><body><img class="alignright size-medium wp-image-3173" src="/wp-content/uploads/2011/04/lucyNarnia-300x199.jpg" alt="" width="300" height="199">Sigo con mi cruzada por leer los 7 tomos de <a href="http://es.wikipedia.org/wiki/Las_Cr%C3%B3nicas_de_Narnia" target="_blank">Las Crónicas de Narnia</a>. La semana pasada, leyendo por las noches y en los colectivos, terminé el número dos: <a href="http://es.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe" target="_blank">El león, la bruja y el ropero</a>. El tema es... que este fue el primer de los libros en ser llevado al cine y por supuesto ya había visto la película. No está muy bueno leer una novela después de haber visto la película, por que ya sabés todo lo que pasa! Ciertamente prefiero el camino inverso, leer una novela y luego ver la película correspondiente.
+
+De esta solo puedo decir que la peli es bastante fiel, salvo algunos detalles mínimos. Ya empecé a leer el tercero, <a href="http://es.wikipedia.org/wiki/El_caballo_y_su_ni%C3%B1o" target="_blank">El caballo y su niño</a>. De este no hay película y pinta muy bien.
+
+
+
+<a href="/wp-content/uploads/2011/04/narnia2tapa.jpg"><img class="aligncenter size-large wp-image-3174" src="/wp-content/uploads/2011/04/narnia2tapa-1024x789.jpg" alt="" width="640" height="493"></a></body></html>

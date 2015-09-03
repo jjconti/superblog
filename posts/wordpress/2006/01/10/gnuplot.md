@@ -1,0 +1,5 @@
+<html><body><p>El año pasado escribí una guía sobre este programa para el proyecto <a href="http://www.gleducar.org.ar">Gleducar</a>, en la introducción decía algo que cuando lo leí reien me gustó:
+
+</p><blockquote>Los autores iniciales de <a href="http://www.gnuplot.info">gnuplot </a>son Thomas Williams y Colin Kelly, quienes decidieron crear un programa que les permitiera visualizar las ecuaciones matemáticas de las clases de electromagnetismo y ecuaciones diferenciales. Ellos eran estudiantes igual que ustedes, se encontraron con un problema (ya que no contaban con una herramienta como esta) y le dieron una solución. Gracias a su generosidad, hoy está disponible para todos.</blockquote>
+
+Lo encontré en la web con el formato de media wiki (el sistema que usan en <a href="http://www.wikipedia.org">Wikipedia</a>) -- muy lindo, gracias a quien lo haya pasado!! les dejo el link por si quieren leerlo <a href="http://wiki.gleducar.org.ar/wiki/index.php/Manual_GNUPlot">http://wiki.gleducar.org.ar/wiki/index.php/Manual_GNUPlot</a></body></html>

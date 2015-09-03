@@ -1,0 +1,11 @@
+<html><body><blockquote>
+
+—Una mañana vimos un chancho corriendo por la playa, en paralelo a la línea del mar. Bueno, paralelo y línea son formas de decirle a las curvas en movimiento que va describiendo el agua sobre la arena. Es un movimiento oscilatorio, senoidal casi te podría decir. Es que soy profe de matemáticas y siempre estoy buscando nuevos ejemplos para los chicos. Bueno, te decía que una mañana vimos un chancho corriendo. Y atrás, no me lo vas a creer, blandiendo la hoja metálica de su cuchilla, el cocinero del hotel.</blockquote>
+
+
+
+Este texto es parte de la novela <a href="http://www.juanjoconti.com.ar/libros/xolopes/">Xolopes</a>. En pre-venta en este blog.
+
+
+
+</body></html>

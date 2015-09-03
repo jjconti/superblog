@@ -1,0 +1,1 @@
+<html><body><img class="aligncenter size-full wp-image-1815" title="sfdflyer" src="/wp-content/uploads/2009/09/sfdflyer.jpg" alt="sfdflyer" width="500" height="311">Probablemente asista a este evento. Más información <a href="http://criadoindomable.wordpress.com/2009/09/09/software-freedom-day-2009-rosario/" target="_blank">en el blog de Seba</a>.</body></html>

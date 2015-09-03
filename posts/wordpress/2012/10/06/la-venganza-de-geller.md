@@ -1,0 +1,5 @@
+<html><body><a href="/wp-content/uploads/2012/10/LAREVENGANZA_cover.jpg"><img class="size-medium wp-image-4180 alignleft" title="Imagen de tapa de ¡La re venganza!" src="/wp-content/uploads/2012/10/LAREVENGANZA_cover-212x300.jpg" alt="" width="212" height="300"></a>Una de las coas que me traje de la Feria del Libro fue una copia de ¡La re venganza!, una novelita de Gonzala Geller, editada por su microeditorial <a href="http://lagotaediciones.blogspot.com.ar/" target="_blank">La Gota</a>.
+
+
+
+Si bien está pensada para adolescentes, cualquiera puede leerla y disfrutarla. Son unas 50 páginas divididas en 31 capítulos en las que el héroe, un joven al que sus compañeros han asesinado, vuelve de la tumba para vengarse. En su búsqueda hay aliados y enemigos, pintorescos personajes y buenas cuotas de humor. El desenlace me pareció genial.</body></html>

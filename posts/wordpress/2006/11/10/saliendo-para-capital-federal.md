@@ -1,0 +1,1 @@
+<html><body><p>Estamos por salir desde la terminal de colectivos de Santa Fe, nos espera un viaje largo. Espero todo salga bien y la pasemos lindo.</p></body></html>

@@ -1,0 +1,1 @@
+<html><body><p style="text-align: left;">Luego de muchos, muchos días sin que llueva en muchos lugares de la provincia, el fin de semana se desató con todo.  <a href="/wp-content/uploads/2008/10/imagen504.jpg"><img class="size-full wp-image-686 aligncenter" title="imagen504" src="/wp-content/uploads/2008/10/imagen504.jpg" alt="" width="500" height="666"></a></p></body></html>

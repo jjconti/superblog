@@ -1,0 +1,3 @@
+<html><body><p>Hoy miércoles 11 de Julio a las 11:30 am se proyectará por primera vez en Santa Fe (pre estreno). Con <a href="http://www.ceportela.com.ar/2007/07/08/palpitando-el-momento/" title="César" target="_blank">César</a> ya tenemos nuestras entradas desde hace un par de días. Más tarde les cuento que tal estuvo.
+
+</p><p style="text-align: center"><a href="http://www.laordendelfenix.com/" title="http://www.laordendelfenix.com/" target="_blank"><img src="/wp-content/uploads/2007/07/laordendelfenix.jpg" alt="LaOrdenDelFenix"></a></p></body></html>

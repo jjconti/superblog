@@ -1,0 +1,1 @@
+<html><body><p>Como una forma de aprender Clojure estoy leyendo el libro <a href="https://www.goodreads.com/book/show/24701168-living-clojure" target="_blank">Living Clojure</a>. Voy a ir dejando anotado las cosas que me llamen la <a href="screensaverninja://addsite/http://www.google.com" target="_blank">atanción</a>.</p></body></html>

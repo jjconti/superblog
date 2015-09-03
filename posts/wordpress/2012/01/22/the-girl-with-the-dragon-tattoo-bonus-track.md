@@ -1,0 +1,9 @@
+<html><body><p>Algunas películas suelen venir con bonus track, escenas inéditas, comentarios del director u otros adicionales que por lo general terminan en la versión DVD del producto y que son consumidas vorazmente por los fans.
+
+
+
+Por estos días está en cartelera la película <a href="http://es.wikipedia.org/wiki/The_Girl_With_The_Dragon_Tattoo_%28pel%C3%ADcula_de_2011%29" target="_blank">The girl with the dragon tattoo</a>, del director David Fincher (Fight club, Benjamin Button, Social Network). Basada en un libro que <a href="http://www.juanjoconti.com.ar/2010/11/08/los-hombres-que-no-amaban-a-las-mujeres-una-novela-sueca/" target="_blank">ya comenté aca</a>, tiene un problema fundamental: llegó tarde. La película no es mala y a gente que no conoce la historia le gustó mucho, pero <a href="http://es.wikipedia.org/wiki/Los_hombres_que_no_amaban_a_las_mujeres_%28pel%C3%ADcula%29" target="_blank">ya hay una adaptación al cine del libro</a>, y encima es Sueca. Así que si quieren un bonus track de esta película, tienen toda una película exra, la original. Y si realmente quieren conocer la historia completa, con todos los detalles, pueden <em>alocarse </em>y hasta leer el libro. Si, los de papel.
+
+
+
+<a href="/wp-content/uploads/2012/01/lisbeth.jpg"><img class="aligncenter size-full wp-image-3630" title="Lisbeth" src="/wp-content/uploads/2012/01/lisbeth.jpg" alt="" width="500" height="305"></a>PS: llegó a la Argentina con el nombre de la edición estadounidense del  primer libro de la trilogía Millenium de Larsson (no me gusta esa manía  de las editoriales norteamericanas de cambiar siempre los títulos de las  obras).</p></body></html>

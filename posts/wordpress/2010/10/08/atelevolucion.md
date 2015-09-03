@@ -1,0 +1,3 @@
+<html><body><p>Vi este chiste hace unos días en la 9° Bienal de arte joven en Santa Fe:
+
+</p><p style="text-align: right;"><a href="/wp-content/uploads/2010/10/2010-10-03_19-09-36_271.jpg"><img class="aligncenter size-large wp-image-2858" title="2010-10-03_19-09-36_271" src="/wp-content/uploads/2010/10/2010-10-03_19-09-36_271-1024x575.jpg" alt="" width="640" height="359"></a>Autor: DÍAZ, Baltazar</p></body></html>

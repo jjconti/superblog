@@ -1,0 +1,7 @@
+cache/
+output/
+files/wp-content
+.idea/
+.doit.db
+plugins/
+*.pyc

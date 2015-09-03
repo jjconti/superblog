@@ -1,0 +1,1 @@
+<html><body><p>Más información sobre este proyecto en la <a href="http://firebirds.com.ar/~juanjo/wordpress/proyectos/kit-de-plug-ins-para-gimp-generador-de-diagramas-de-constelaciones-psk-y-qam/">sección Constelaciones</a>.</p></body></html>

@@ -1,0 +1,5 @@
+<html><body><a href="http://fragacomics.blogspot.com.ar/" target="_blank">Fraga</a>, el de las <a href="http://axxon.com.ar/fraga/fraguianas.htm" target="_blank">Ondas Fraguianas</a>, un dibujante mexicano con el que ya colaboré (<a href="http://www.juanjoconti.com.ar/2008/11/22/mi-humor-en-axxon/" target="_blank">1</a> y <a href="http://www.juanjoconti.com.ar/2011/09/21/3-anos-despues-vuelvo-a-colaborar-con-un-comic-de-fraga/" target="_blank">2</a>) me acaba de mandar <a href="http://axxon.com.ar/fraga/fraga347.htm" target="_blank">su último comic</a>. Está basado en el microcuento Personajes del libro <a href="http://www.juanjoconti.com.ar/cuentos/" target="_blank">La máquina de los cuentos</a>. Un lujo.
+
+
+
+<a href="/wp-content/uploads/2012/04/Personajes.jpg"><img class="size-large wp-image-3864" title="Personajes" src="/wp-content/uploads/2012/04/Personajes-791x1024.jpg" alt="" width="640" height="828"></a></body></html>

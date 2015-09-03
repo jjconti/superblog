@@ -1,0 +1,33 @@
+<html><body><p><em>El siguiente texto es una traducción del artículo The Problem with Integer Division de Guido van Rossum publicado en <a href="http://python-history.blogspot.com/" target="_blank">http://python-history.blogspot.com/</a>.</em><br>
+
+<!--more--></p>
+
+<h2> El problema con la división entre enteros</h2>
+
+<p>La forma en que Python maneja la división entre enteros es un ejemplo de errores iniciales con enormes consecuencias. Como se mencionó anteriormente, cuando Python fue creado abandoné el enfoque con el que ABC abordaba los números. Por ejemplo, en ABC, cuando dividías dos enteros, el resultado era un número racional exacto que representaba el resultado. En Python, sin embargo, la división entre enteros trunca el resultado a un entero.</p>
+
+<p>En mi experiencia, los números racionales no son tan buenos como los diseñadores de ABC esperaban. Una experiencia típica podría ser escribir un programa simple con alguna aplicación comercial (digamos, calcular tus impuestos) y encontrar que corre más lento de lo esperado. Luego de depurar se encuentra la causa: internamente el programa usa números racionales con miles de dígitos de precisión para representar valores que serán truncados a dos o tres dígitos al ser impresos. Esto podía ser fácilmente solucionado empezando una suma con un cero inexacto, pero esto era a menudo no intuitivo y difícil de depurar para los principiantes.</p>
+
+<p>Entonces en Python utilicé el otro modelo numérico que me era familiar, C. C tiene enteros y números de punto flotante de varios tamaños. Entonces elegí representar los enteros de Python con <em>longs</em> de C (garantizando por lo menos 32 bits de precisión) y los números de punto flotante con <em>doubles</em> de C. Luego añadí un tipo entero con precisión arbitraria que llamé "<em>long</em>".</p>
+
+<p>El mayor error fue que también tomé prestada una regla que tenía sentido en C pero no en un lenguaje de tan alto nivel. Para las operaciones aritméticas estándares, incluyendo la división, el resultado siempre sería del mismo tipo que los operandos. Para empeorar las cosas, inicialmente usé otra regla equivocada que prohibía usar aritmética mixta, con la idea de hacer que las implementaciones de los distintos tipos sean independientes entre sí. Entonces, en un principio no se podía sumar un <em>int</em> con un <em>float</em>, o incluso un <em>int</em> con un <em>long</em>. Luego de que Python se distribuyera públicamente, Time Peters rápidamente me convenció de que esto era realmente una mala idea e introdujo una aritmética mixta con las reglas de coerción típicas. Por ejemplo, mezclar un operando <em>int</em> y uno <em>long</em> convertiría el argumento de tipo <em>int</em> a <em>long</em> y retornaría un <em>long</em> como resultado y la mezcla con un <em>float</em> convertiría al argumento <em>int</em> o <em>long</em> en un <em>float</em> y retornaría un resultado <em>float</em>.</p>
+
+<p>Desafortunadamente, el daño estaba hecho: la división entre enteros daba un resultado entero. Estarás pensando "¿por qué era esto tan malo?". ¿Estaba haciendo escándalo por nada? Históricamente, la propuesta para cambiar esto ha tenido algunas oposiciones duras por parte de quienes pensaban que aprender división entre enteros era una de los más útiles "ritos de iniciación" para todos los programadores. Así que déjenme explicarles las razones por la cual considero esto un error de diseño.</p>
+
+<p>Cuando escribes una función para implementar un algoritmo numérico (por ejemplo, calcular las fases de la luna) esperas que los argumentos sean números de punto flotante. Sin embargo, ya que Python no tiene declaración de tipos, nada evita que la función sea llamada con argumentos enteros. En un lenguaje estáticamente tipado, como C, el compilador convertiría los argumentos a <em>floats</em>, pero Python no sabe nada de eso; el algoritmo corre con valores enteros hasta que las maravillas de la aritmética mixta produzca resultados intermedios que sean <em>floats</em>.</p>
+
+<p>Para todo excepto para la división, los enteros se comportan de la misma forma que sus números de punto flotante correspondiente. Por ejemplo, 1+1 es igual a 2 de la misma forma que 1.0+1.0 es igual a 2.0, y así. Por lo tanto uno puede fácilmente confundirse y esperar que los algoritmos numéricos funcionen independientemente de si son ejecutados con argumentos enteros o de punto flotante. Sin embargo, cuando hay una división, y existe la posibilidad de que los dos operandos sean enteros, el resultado numérico es truncado silenciosamente, esencialmente introduciendo un gran error potencial en el cómputo. Aunque uno puede escribir código defensivo que convierta todos los argumentos a <em>float</em> apenas se introducen, esto es tedioso, y no mejora la legibilidad o mantenibilidad del código. Adicionalmente, evita que el algoritmo sea usado con números complejos (aunque eso sería en casos muy especiales).</p>
+
+<p>Nuevamente, todo esto es un problema porque Python no convierte argumentos automáticamente a algún tipo declarado. Pasar un argumento inválido, por ejemplo un <em>string</em>, es generalmente atrapado rápido por que muy pocas operaciones aceptan mezclar operados strings/números (siendo la excepción la multiplicación). Sin embargo, pasar un entero puede causar una respuesta cercana a la correcta, pero con error; difícil de depurar o incluso advertir (esto me pasó recientemente en un programa que dibuja un reloj analógico; las posiciones de las manecillas eran calculadas incorrectamente debido al truncamiento, pero el error era apenas detectable excepto en ciertas horas del día).</p>
+
+<p>Arreglar la división entre enteros no fue una tarea fácil debido a los programas que dependían de este truncamiento. Se añadió al lenguaje un operador de división truncada (//) que provee la misma funcionalidad. Además, se introduzco un mecanismo ("from __future__ import division") para habilitar fácilmente la nueva semántica para la división entre enteros. Finalmente, se agregó una bandera para la línea de comando (-Qxxx) para cambiar el comportamiento y para asistir la conversión de programas. Afortunadamente, el comportamiento correcto se convirtió en el comportamiento por defecto en Python 3000.</p>
+
+<p><em>Traducido por Juan José Conti.<br>
+
+Revisado por César Portela.<br>
+
+Si encontrás errores en esta traducción, por favor reportalos en un comentario y los corregiremos a la brevedad.</em><br>
+
+Todas las traducciones de esta serie pueden encontrarse en <a href="/categoria/aprendiendo-python/historia/" target="_self">La historia de Python</a>.</p>
+
+</body></html>

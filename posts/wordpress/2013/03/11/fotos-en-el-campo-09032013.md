@@ -1,0 +1,1 @@
+<html><body><p>[gallery link="file" order="DESC" orderby="post_date"]</p></body></html>

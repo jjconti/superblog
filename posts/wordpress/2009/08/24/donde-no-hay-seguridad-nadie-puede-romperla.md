@@ -1,0 +1,13 @@
+<html><body><img class="size-full wp-image-1746" title="Richard Stallman" src="/wp-content/uploads/2009/08/IMG_4773.jpg" alt="IMG_4773" width="233" height="350">
+
+
+
+Hoy me pasó mi padre un <a href="http://www.pagina12.com.ar/diario/dialogos/21-130490-2009-08-24.html" target="_blank">artículo en Página 12</a> con una reciente entrevista a <a href="http://www.stallman.org/" target="_blank">RMS</a>. El artículo se titula, como este post, Donde no hay seguridad nadie puede romperla. En la noticia, el título no es más que una frase sacada de una de sus respuestas, parte de una anécdota casi que poco está relacionada con el resto de la nota, pero me llamó muchísimo la atención. Rescato esta parte:
+
+<blockquote>En ese sistema no había seguridad, no había claves, no había protección de archivos, cualquier persona podía entrar en la computadora bajo cualquier nombre y hacer cualquier cosa, y nos gustaba que fuera así, deliberadamente implementábamos el sistema sin seguridad. Mi trabajo en el laboratorio era mejorar el sistema. Si hubiéramos querido tener seguridad nos tendríamos que haber dedicado, entre otras tareas, a implementar la seguridad, que era lo que no queríamos. Entonces, donde no hay seguridad nadie puede romperla.</blockquote>
+
+El periodista entonces pregunta, a lo mejor algo alarmado, si puede existir un sistema sin seguridad. A lo que Stallman contesta:
+
+<blockquote>Aunque muchos pueden pensar que es imposible, es algo que todavía puede ser posible. Pero con esto no quiero decir que no tiene que haber seguridad en los bancos, por ejemplo, no estoy a favor de robar las cuentas bancarias. Pero nuestro laboratorio no era un banco, no teníamos datos personales, no teníamos datos financieros, fue un laboratorio para colaborar en la investigación y el desarrollo. Pero hoy en día es algo diferente, porque habitualmente usamos computadoras personales, pero en los años ’70 una computadora era demasiado cara, era casi imposible tener una computadora personal. Y en ese período el laboratorio tenía dos computadoras principales que todos teníamos que compartir. Cuando la gente comparte una computadora, tener seguridad entre los usuarios exige imponer un estado policíaco, pero no es igual con las computadoras personales, porque fácilmente se puede excluir a los demás de tu computadora, sin imponerse a uno mismo un estado policíaco. Pero en las computadoras compartidas nosotros no deseábamos tener seguridad, no fue sólo un capricho, fue por motivos racionales, porque queríamos vivir en libertad, <strong>no queríamos desarrollar un arma para los administradores para someternos</strong>.</blockquote>
+
+Para pensarlo.</body></html>

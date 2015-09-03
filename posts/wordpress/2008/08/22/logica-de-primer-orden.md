@@ -1,0 +1,3 @@
+<html><body><blockquote>En este capítulo ampliaremos estos temas para conseguir algoritmos que pueden responder a preguntas expresadas en lógica de primer orden. Esto es muy significativo, porque si se trabaja duro, más o menos cualquier cosa se puede representar en lógica de primer orden.</blockquote>
+
+Inferencia lógica de primer orden - Cap. 9 de Inteligencia Artificial, un enfoque moderno 2° ed - Stuart Russell &amp; Peter Norvig</body></html>

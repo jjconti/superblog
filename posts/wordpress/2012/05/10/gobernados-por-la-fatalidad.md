@@ -1,0 +1,3 @@
+<html><body><p>Del libro <strong>Querer escribir, poder escribir</strong> de <strong>Javier Chiabrando</strong>. Página 15.
+
+</p><blockquote>En una buena novela, así como en un buen cuento, las cosas se desarrollan de tal manera que el lector piense que nunca podrían haber sido diferentes. Los hechos de una historia narrada con palabras escritas parecen (deberían parecerlo) gobernados por la fatalidad.</blockquote></body></html>

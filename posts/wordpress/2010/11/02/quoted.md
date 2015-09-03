@@ -1,0 +1,3 @@
+<html><body><p>Fillipo has just published <a href="http://www.cse.chalmers.se/%7Erusso/publications_files/erasureTaint.pdf" target="_blank"><strong>Implementing Erasure Policies Using Taint Analysis</strong></a>.
+
+</p><blockquote>With this in mind, and inspired by Conti and Russo’s work, we implement a mechanism to perform taint propagation, i.e. how to mark as erasure-aware data that is computed from other erasure-aware values. From now on, we use taint and erasure-aware as interchangeable terms.</blockquote></body></html>

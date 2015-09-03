@@ -1,0 +1,15 @@
+<html><body><p>Ayer a la mañana me desperté sin saber que por la noche iba a ver por primera vez un recital de Fito Páez. ¿24 años de vida y nunca lo había visto? No. Y no es que no me guste; me gusta mucho. Pero no había tenido la oportunidad. Hacía varias semanas que publicitaban el show en el Teatro Municipal, pero cuando quise comprar entradas, ya estaban agotadas :(<a href="/wp-content/uploads/2009/06/dsc02954_filtered.jpg"><img class="alignright size-medium wp-image-1657" title="dsc02954_filtered" src="/wp-content/uploads/2009/06/dsc02954_filtered-168x300.jpg" alt="" width="168" height="300"></a>
+
+Resignado a perdérmelo, el jueves por la tarde casi no me acordaba del evento, cuando un mensaje de un compañero de la facu llegó a mi celular. Le sobraba una entrada y me la ofrecía. Sin dudarlo de dije que si, nos vemos 8, 8:30 en la puerta ya que las que tenemos no son numeradas.
+
+Un rato antes de las 8 manejé hasta el centro, cuando doblé en Juan de Garay, la calle al costado del teatro, todos los lugares en los que podía estacionar estaban ocupados. Seguí de largo, vuelta a la manza, otra vuelta. No puede ser. 8:20. Me alejo unas cuadras más y veo un lugar entre un remís y una camioneta. Todavía no estacioné nunca en la ciudad en un espacio tan chico. 8:25. Hago el intento; balizas, para atrás, para adelante, para trás. Me bajo, cierro, alarma, lo miro. Mmmmmmm no me convence, la cola sale un poquito para afuera. Me vuelvo a meter en el auto, unas maniobras, me vuelvo a bajar.  Mmmmmmm no me convence, repito el procedimiento. Me vuelvo a bajar, lo miro, igual que al principio. 8:32.<a href="/wp-content/uploads/2009/06/dsc02961_filtered.jpg"><img class="aligncenter size-medium wp-image-1658" title="dsc02961_filtered" src="/wp-content/uploads/2009/06/dsc02961_filtered-300x168.jpg" alt="" width="300" height="168"></a>
+
+Teléfono, Martín (de la facu). Estamos en la puerta por entrar, apurate. Ya estoy. Empiezo a correr, media cuadra, me freno. ¿Puse la alarma? Me vuelvo. Si, la puse. Vuelvo a correr, llego a la esquina y me doy cuenta que estoy a 3 cuadras del teatro. No estoy en forma, sigo corriendo. Llego, voy por la entrada principal, solo plateas, doy la vuelta. Lo encuentro a Martín y agitadísmo entro a subir escaleras hasta que llegamos a nuestros lugares, arriba de todo pero bien al medio: Me encantó la relación precio/beneficio de nuestros asientos.
+
+De cuando empezó el recital en adelante no puedo contar mucho, solo que fue impresionante cuando se apagaron las luces, entro Rodolfo Páez y desde arriba vi cientos de cuadraditos de luz (los displays de cámaras y celulares) y flashes que como relámpagos iluminaban el escenario.
+
+[gallery]
+
+<em>Un post distinto a los que suelo hacer, y con unas descripciones a veces forzando la realidad para hacerlo más cómico :)</em>
+
+La mayoría de las fotos son del blog <a title="Fito" href="http://ocio-pub.blogspot.com/2009/06/fito-paez-en-santa-fe-246-teatro.html" target="_blank">Welcome</a>. Gracias.</p></body></html>

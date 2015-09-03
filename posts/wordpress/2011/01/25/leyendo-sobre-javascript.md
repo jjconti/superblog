@@ -1,0 +1,3 @@
+<html><body><blockquote>Yes, JS is designed to have something required 95% (but not <em>all</em>)  of the time, that when you forget it, fails silently, and may crash or  lock up the execution environment with no means to debug it other than  trial and error! Thank you, JS language designers! Thank you, browser  implementers!</blockquote>
+
+<a href="http://www.wooji-juice.com/blog/javascript-article.html" target="_blank">http://www.wooji-juice.com/blog/javascript-article.html</a></body></html>

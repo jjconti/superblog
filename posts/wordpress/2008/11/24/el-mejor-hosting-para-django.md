@@ -1,0 +1,1 @@
+<html><body><p>Según <a href="http://djangofriendly.com/">DjangoFriendly</a>, el mejor hosting para Django es <a href="http://www.webfaction.com?affiliate=zafiro">Webfaction</a>. Yo lo vengo probando por un mes y estoy muy satisfecho.</p></body></html>

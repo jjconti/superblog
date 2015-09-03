@@ -1,0 +1,3 @@
+<html><body><p style="text-align: center;"><strong>Feliz Navidad para todos!</strong></p>
+
+<p style="text-align: left;"><a href="/wp-content/uploads/2009/12/100_5693.JPG"><img class="aligncenter size-medium wp-image-2021" title="100_5693" src="/wp-content/uploads/2009/12/100_5693-300x225.jpg" alt="100_5693" width="300" height="225"></a><strong>update:</strong> cambié el emoticón con gorrito de Papá Noel por algo con MAS NAVIDAD: una foto de nuestro pesebre en Pellegrini.</p></body></html>

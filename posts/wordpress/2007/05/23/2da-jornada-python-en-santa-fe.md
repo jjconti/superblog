@@ -1,0 +1,5 @@
+<html><body><p>El 9 de junio se realizará en el Auditorio de la Facultad Regional Santa Fe de la <a href="http://www.frsf.utn.edu.ar/" target="_blank">Universidad Tecnológica Nacional</a>, Argentina, la <a href="http://www.pythonsantafe.com.ar/" target="_blank">2da Jornada Python en Santa Fe</a>. Con el objetivo de promocionar el lenguaje Python, este año se han programado un mayor número de temas dirigidos a la comunidad de programadores, profesionales de sistemas, estudiantes y público en general. Las charlas se desarrollarán entre las 8.30 y las 18.30 y estarán a cargo de varios disertantes invitados.
+
+El <a href="http://www.lugli.org.ar/" target="_blank">LUGLi</a>, Grupo de Usuarios de Software Libre del Litoral, y la Universidad Tecnológica Nacional, FRSF, tienen el agrado de invitarlo a participar. La entrada es libre y gratuita.
+
+Puede obtenerse más información y registrarse para participar del evento en <a href="http://www.pythonsantafe.com.ar/" target="_blank">http://www.pythonsantafe.com.ar</a></p></body></html>

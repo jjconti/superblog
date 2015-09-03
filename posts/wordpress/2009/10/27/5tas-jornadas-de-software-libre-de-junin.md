@@ -1,0 +1,3 @@
+<html><body><p>Este viernes y sábado se llevarán a cabo las 5tas Jornadas de Software Libre de Junín. Habrá <a href="http://www.lugju.com.ar/cronograma.html">charlas muy interesantes!</a> No se la pierdan:
+
+<a href="http://www.lugju.com.ar/"><img src="/wp-content/uploads/2009/10/junin-300x150.png" alt="junin" title="junin" width="300" height="150" class="aligncenter size-medium wp-image-1859"></a></p></body></html>

@@ -1,0 +1,5 @@
+<html><body><p>De un post sobre <a href="http://blog.eternacadencia.com.ar/archives/2012/24638" target="_blank">¿Qué es una novela?</a>, salté a un <a href="http://www.excelencialiteraria.com/2005-2006/imagenes/conferencia_de_ignacio_garcia_valino.pdf" target="_blank">pdf sobre una conferencia de Ignacio García-Valiño</a>. Rescato esto:
+
+</p><blockquote>El enfoque es el punto de vista, el ángulo especial por el que vas a atacar. Un argumento aparentemente trillado, una <em>love story</em>, por ejemplo, puede resultar una gran historia si se le da un enfoque interesante, o novedoso.
+
+Es muy difícil, si no imposible, encontrar argumentos vírgenes. Lo moderno, lo que amplía las posibilidades de la historia es el enfoque. En la novela que estoy leyendo ahora, Rabos de lagartija, de Juan Marsé, el narrador es un feto. En la novela moderna, prima la subjetividad del enfoque por encima de todo. Es el prisma a través del cual miramos lo que hace parecer que el mundo sea diferente.</blockquote></body></html>

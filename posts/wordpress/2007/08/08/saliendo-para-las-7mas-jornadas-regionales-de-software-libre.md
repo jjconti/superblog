@@ -1,0 +1,1 @@
+<html><body><p>Córdoba, allá vamos! En un par de horas estamos saliendo para este evento con César y Mariano. Este es el <a href="http://jornadas.grulic.org.ar/7/contenido/programa/listados/fixture" title="7RJSL" target="_blank">programa</a>. Hay varias charlas que tengo ganas de ver. Si puedo les cuento en estos días algunas cosas.</p></body></html>

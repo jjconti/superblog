@@ -1,0 +1,1 @@
+<html><body><p>Hoy me avisaron que ya están listas las fotos que mandé a imprimir de las vacaciones en México. Aprovecho para subir algunas al blog.[gallery columns="4" ids="4458,4457,4456,4459,4460,4461,4463,4462,4464,4467,4466,4465,4468,4469,4470,4471,4472,4473,4476,4475,4474,4477,4478,4479"]</p></body></html>

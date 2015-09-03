@@ -1,0 +1,1 @@
+<html><body><p>Hace una semana empezamos con unos amigos una lista de correos llamada Rivendel, como la ciudad de los Elfos en El Señor de los Anillos. Allí compartimos noticias sobre computación en general. Pueden encontrar más información en <s>esta dirección</s>.</p></body></html>

@@ -1,0 +1,1 @@
+<html><body><p>Con la salida de Ubuntu 9.10 (Karmic Koala) TELEFE emitió una nota al respecto: <a href="http://www.youtube.com/watch?v=UXlKd9beoys">Fierita sobre Ubuntu</a></p></body></html>

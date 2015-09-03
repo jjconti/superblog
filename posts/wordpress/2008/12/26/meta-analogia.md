@@ -1,0 +1,1 @@
+<html><body><blockquote>El problema con las analogías es que son como las fotocopias, nunca se parecen  al original.</blockquote></body></html>

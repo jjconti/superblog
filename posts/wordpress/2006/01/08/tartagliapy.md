@@ -1,0 +1,1 @@
+<html><body><p>La primer vez que escribí un código para el triángulo de tartaglia lo hice en Prolog y se me ocurrió que podría hacerlo en Python para practivar, lo hice de 4 formas distintas: <a href="http://firebirds.com.ar/~juanjo/wordpress/files/python/tartaglia.py.html">tartaglia.py</a></p></body></html>

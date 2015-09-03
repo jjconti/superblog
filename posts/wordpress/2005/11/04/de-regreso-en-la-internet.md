@@ -1,0 +1,1 @@
+<html><body><p>Después de 3 semanas de estar off-line hoy volví a la internet :-) Es bueno estar de vuelta. Espero en estos días postear algunas cosas que tenía planeado antes de desconectarme.</p></body></html>
