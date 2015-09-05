@@ -1,5 +1,5 @@
-.. title: Author pages in Nikola 7.7
-.. slug: author-pages-in-nikola-77
+.. title: Author pages in Nikola v7.7.0
+.. slug: author-pages-in-nikola-v770
 .. date: 2015-09-04 16:08:03 UTC-03:00
 .. tags: Nikola
 .. category:
@@ -53,6 +53,8 @@ If you want to link to these pages in your own theme, you can use something like
                 ${post.author()}
             % endif
 
-You can see the feature in action in `Nikola blog <https://getnikola.com/blog/>`_: `author page example <https://getnikola.com/authors/roberto-alsina.html>`_.
+You can see the feature in action in `Nikola blog <https://getnikola.com/blog/>`_:
+`author page example <https://getnikola.com/authors/roberto-alsina.html>`_,
+`all authors page example <https://getnikola.com/authors/>`_.
 
 Hope you enjoy it!
