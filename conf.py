@@ -127,6 +127,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/fotos/", "Fotos"),
         ("/archivo/", "Archivo"),
         ("/etiquetas/", "Etiquetas"),
         ("/rss.xml", "RSS"),
@@ -596,7 +597,7 @@ DEPLOY_COMMANDS = {
 # "source/" and the results will be located in
 # "OUTPUT_PATH/relative_destination/gallery_name"
 # Default is:
-# GALLERY_FOLDERS = {"galleries": "galleries"}
+GALLERY_FOLDERS = {"galleries": "fotos"}
 # More gallery options:
 # THUMBNAIL_SIZE = 180
 # MAX_IMAGE_SIZE = 1280
