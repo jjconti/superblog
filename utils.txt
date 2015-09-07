@@ -1,0 +1,11 @@
+= Mass edit todos los .meta que contengan cierto tag (a arreglar)
+
+	vim  `grep -l pyweek -R * | grep .meta`
+
+= Reemplazar los .meta recien generados por los que ya tengo modificados:
+
+	find wordpress/ -name '*.meta' | cpio -pdm  posts
+
+= Migrate from php galley
+
+	tar cvfz albumns.tgz  --exclude="*.php" albums/
