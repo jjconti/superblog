@@ -1,0 +1,4 @@
+En el Café Tortoni con Joel y Romina.
+
+.. figure:: 5xgfkb.thumbnail.jpg
+  :target: 5xgfkb.jpg

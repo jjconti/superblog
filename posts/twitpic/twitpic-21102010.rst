@@ -1,0 +1,4 @@
+Con la Mary el finde en el Parque Huerta.
+
+.. figure:: 2zcv7h.thumbnail.jpg
+  :target: 2zcv7h.jpg

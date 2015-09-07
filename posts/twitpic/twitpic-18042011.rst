@@ -1,0 +1,4 @@
+Tablón de pinches.
+
+.. figure:: 4m98og.thumbnail.jpg
+  :target: 4m98og.jpg

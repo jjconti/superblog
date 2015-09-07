@@ -1,0 +1,4 @@
+Cafe de amorcis.
+
+.. figure:: 4r7xig.thumbnail.jpg
+  :target: 4r7xig.jpg

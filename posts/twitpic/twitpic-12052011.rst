@@ -1,0 +1,4 @@
+Plaza de Mayo, Santa Fe.
+
+.. figure:: 4wntxe.thumbnail.jpg
+  :target: 4wntxe.jpg

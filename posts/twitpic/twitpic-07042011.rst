@@ -1,0 +1,4 @@
+Flisol en Santa Fe.
+
+.. figure:: 4hslwd.thumbnail.jpg
+  :target: 4hslwd.jpg

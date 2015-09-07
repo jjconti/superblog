@@ -1,0 +1,4 @@
+El mate de `@pyconar <https://twitter.com/pyconar>`_ presente hoy en clases.
+
+.. figure:: 7nf8q6.thumbnail.jpg
+  :target: 7nf8q6.jpg

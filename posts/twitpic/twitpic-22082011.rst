@@ -1,0 +1,4 @@
+El grande clavando chapas en su casa.
+
+.. figure:: 6a1v5f.thumbnail.jpg
+  :target: 6a1v5f.jpg

@@ -1,0 +1,4 @@
+Mision cumplida! Fase 1
+
+.. figure:: 7iklgg.thumbnail.jpg
+  :target: 7iklgg.jpg

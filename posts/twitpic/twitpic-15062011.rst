@@ -1,0 +1,4 @@
+Hoy me prestaron este libro. `#dolina <https://twitter.com/hashtag/dolina>`_ `#cronicasdelangelgris <https://twitter.com/hashtag/cronicasdelangelgris>`_
+
+.. figure:: 5bq9xe.thumbnail.jpg
+  :target: 5bq9xe.jpg

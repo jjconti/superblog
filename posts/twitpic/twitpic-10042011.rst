@@ -1,0 +1,4 @@
+Baby chivos 1.
+
+.. figure:: 4jbxl4.thumbnail.jpg
+  :target: 4jbxl4.jpg

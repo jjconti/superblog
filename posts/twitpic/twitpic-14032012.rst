@@ -1,0 +1,4 @@
+Aparecio una gata en la casa, nos la quedamos?
+
+.. figure:: 8w061k.thumbnail.jpg
+  :target: 8w061k.jpg

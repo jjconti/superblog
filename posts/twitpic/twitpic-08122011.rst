@@ -1,0 +1,4 @@
+Estos son unos capos. Visto en la terminal de colectivos de Santa Fe.
+
+.. figure:: 7q19hr.thumbnail.jpg
+  :target: 7q19hr.jpg

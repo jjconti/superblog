@@ -1,0 +1,4 @@
+Ya estamos en la Plaza Pueyrredon, los esperamos!
+
+.. figure:: 7s0p0a.thumbnail.jpg
+  :target: 7s0p0a.jpg

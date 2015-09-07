@@ -1,0 +1,4 @@
+Yo con mis lentes especiales.
+
+.. figure:: 8gpjhx.thumbnail.jpg
+  :target: 8gpjhx.jpg

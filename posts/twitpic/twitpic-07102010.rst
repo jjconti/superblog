@@ -1,0 +1,4 @@
+Clase de FO:
+
+.. figure:: 2va05i.thumbnail.jpg
+  :target: 2va05i.jpg

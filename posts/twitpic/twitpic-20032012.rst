@@ -1,0 +1,4 @@
+Hoy hicimos arco con `@chinomng <https://twitter.com/chinomng>`_
+
+.. figure:: 8yqi5q.thumbnail.jpg
+  :target: 8yqi5q.jpg

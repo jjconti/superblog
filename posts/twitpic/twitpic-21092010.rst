@@ -1,0 +1,4 @@
+
+
+.. figure:: 2qgiuo.thumbnail.jpg
+  :target: 2qgiuo.jpg

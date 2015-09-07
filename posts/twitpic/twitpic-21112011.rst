@@ -1,0 +1,4 @@
+Pintando!
+
+.. figure:: 7hjs0v.thumbnail.jpg
+  :target: 7hjs0v.jpg

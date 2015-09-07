@@ -1,0 +1,4 @@
+Hoy en Guadalupe votamos para decidir que hacer con una partida municipal de 500 mil pesos.
+
+.. figure:: 4y5pwg.thumbnail.jpg
+  :target: 4y5pwg.jpg

@@ -1,0 +1,4 @@
+La hora del té.
+
+.. figure:: 2vsi2r.thumbnail.jpg
+  :target: 2vsi2r.jpg

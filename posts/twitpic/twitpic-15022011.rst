@@ -1,0 +1,4 @@
+Está fue mi tarjeta del día de los <3. En realidad es un gif animado en el que el último número va cambiando.
+
+.. figure:: 3zxva8.thumbnail.gif
+  :target: 3zxva8.gif

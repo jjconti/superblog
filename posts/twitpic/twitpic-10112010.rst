@@ -1,0 +1,4 @@
+Cable coaxil.
+
+.. figure:: 35ko7v.thumbnail.jpg
+  :target: 35ko7v.jpg

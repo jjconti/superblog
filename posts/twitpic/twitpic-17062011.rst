@@ -1,0 +1,4 @@
+Con la abuela de visita.
+
+.. figure:: 5d00js.thumbnail.jpg
+  :target: 5d00js.jpg

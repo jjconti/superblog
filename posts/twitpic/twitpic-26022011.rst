@@ -1,0 +1,4 @@
+El asado que se mando Cassol en la inauguración del depto del Ema.
+
+.. figure:: 43vdi0.thumbnail.jpg
+  :target: 43vdi0.jpg

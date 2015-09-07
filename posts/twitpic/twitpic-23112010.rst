@@ -1,0 +1,4 @@
+Foto artística del finde en el campo.
+
+.. figure:: 39jmpj.thumbnail.jpg
+  :target: 39jmpj.jpg

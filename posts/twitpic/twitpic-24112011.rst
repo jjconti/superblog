@@ -1,0 +1,4 @@
+Mision cumplida.  A tiempo para el desayuno a las 9. Al que madruga...
+
+.. figure:: 7itnvy.thumbnail.jpg
+  :target: 7itnvy.jpg

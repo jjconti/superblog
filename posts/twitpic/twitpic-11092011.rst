@@ -1,0 +1,4 @@
+Adivinan QUE y PARA QUE es?
+
+.. figure:: 6jekcv.thumbnail.jpg
+  :target: 6jekcv.jpg

@@ -1,0 +1,4 @@
+Yo soy de los que ponen la bolsa de carbon arriba de la parrilla.
+
+.. figure:: 8i77n9.thumbnail.jpg
+  :target: 8i77n9.jpg

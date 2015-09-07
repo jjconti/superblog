@@ -1,0 +1,4 @@
+Hoy sale post doble sobre dulce de higo.
+
+.. figure:: 8fm3st.thumbnail.jpg
+  :target: 8fm3st.jpg

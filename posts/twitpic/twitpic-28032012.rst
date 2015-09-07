@@ -1,0 +1,4 @@
+Usando `#Encuentro <https://twitter.com/hashtag/Encuentro>`_ de `@facundobatista <https://twitter.com/facundobatista>`_; que significa el estado vacío?
+
+.. figure:: 928lop.thumbnail.png
+  :target: 928lop.png

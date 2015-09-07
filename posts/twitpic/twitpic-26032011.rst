@@ -1,0 +1,4 @@
+Alguien sabe que tal esta este libro?
+
+.. figure:: 4do7nt.thumbnail.jpg
+  :target: 4do7nt.jpg

@@ -1,0 +1,4 @@
+Ya tengo mi cocarda para el PyDay en Córdoba.
+
+.. figure:: 4nfuae.thumbnail.png
+  :target: 4nfuae.png

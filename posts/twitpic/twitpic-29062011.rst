@@ -1,0 +1,4 @@
+Un metegol gigante el fin de semana.
+
+.. figure:: 5id45i.thumbnail.jpg
+  :target: 5id45i.jpg

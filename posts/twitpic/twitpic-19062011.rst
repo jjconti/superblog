@@ -1,0 +1,4 @@
+La comunidad Nipona.
+
+.. figure:: 5dukq0.thumbnail.jpg
+  :target: 5dukq0.jpg

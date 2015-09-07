@@ -1,0 +1,4 @@
+Esto era el domingo.
+
+.. figure:: 2x1a7y.thumbnail.jpg
+  :target: 2x1a7y.jpg

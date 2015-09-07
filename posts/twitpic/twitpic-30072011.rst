@@ -1,0 +1,4 @@
+El filosofo Joel Lorenzatti, para solapa de libro la foto!
+
+.. figure:: 5ybkfu.thumbnail.jpg
+  :target: 5ybkfu.jpg

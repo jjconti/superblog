@@ -1,0 +1,4 @@
+
+
+.. figure:: 33xtxm.thumbnail.jpg
+  :target: 33xtxm.jpg

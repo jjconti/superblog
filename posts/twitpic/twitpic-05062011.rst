@@ -1,0 +1,4 @@
+Un auto de 1931 que vi hoy en Pilar.
+
+.. figure:: 57ka86.thumbnail.jpg
+  :target: 57ka86.jpg

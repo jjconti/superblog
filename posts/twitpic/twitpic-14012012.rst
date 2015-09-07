@@ -1,0 +1,4 @@
+Este es Santi.
+
+.. figure:: 86z3cc.thumbnail.jpg
+  :target: 86z3cc.jpg

@@ -1,0 +1,4 @@
+Souvenir de `#pyconar <https://twitter.com/hashtag/pyconar>`_ para `@plgomezz <https://twitter.com/plgomezz>`_
+
+.. figure:: 6r3nah.thumbnail.jpg
+  :target: 6r3nah.jpg

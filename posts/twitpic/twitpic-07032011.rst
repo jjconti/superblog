@@ -1,0 +1,4 @@
+Atardecer en la laguna Setubal.
+
+.. figure:: 46y6yy.thumbnail.jpg
+  :target: 46y6yy.jpg

@@ -1,0 +1,4 @@
+Container.
+
+.. figure:: 48fu6a.thumbnail.jpg
+  :target: 48fu6a.jpg

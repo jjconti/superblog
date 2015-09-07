@@ -1,0 +1,4 @@
+Monty Python citado en un artículo de CACM.
+
+.. figure:: 2wudsa.thumbnail.jpg
+  :target: 2wudsa.jpg

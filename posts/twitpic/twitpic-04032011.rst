@@ -1,0 +1,4 @@
+Mesa para uno.
+
+.. figure:: 45u6dg.thumbnail.jpg
+  :target: 45u6dg.jpg

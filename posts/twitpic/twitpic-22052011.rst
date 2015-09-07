@@ -1,0 +1,4 @@
+Con Juan Bautista y Ceci.
+
+.. figure:: 50u3p2.thumbnail.jpg
+  :target: 50u3p2.jpg

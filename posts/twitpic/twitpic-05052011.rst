@@ -1,0 +1,4 @@
+Esto es de hoy en la facu. Una vergüenza. Hay que cuiidarla entre todos los que hacemos a la vida universitaria.
+
+.. figure:: 4tg780.thumbnail.jpg
+  :target: 4tg780.jpg

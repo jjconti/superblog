@@ -1,0 +1,4 @@
+I <3 ese puntito rosa.
+
+.. figure:: 44npa5.thumbnail.jpg
+  :target: 44npa5.jpg

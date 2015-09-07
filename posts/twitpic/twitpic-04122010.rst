@@ -1,0 +1,4 @@
+
+
+.. figure:: 3cy0dc.thumbnail.jpg
+  :target: 3cy0dc.jpg

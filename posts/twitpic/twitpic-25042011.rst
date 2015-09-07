@@ -1,0 +1,4 @@
+Creo que no sobraron roscas de Pascua.
+
+.. figure:: 4p6ckb.thumbnail.jpg
+  :target: 4p6ckb.jpg

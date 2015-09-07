@@ -1,0 +1,4 @@
+Llego mi libro editado por Bubok, impresión por demanda. Muy buena calidad!
+
+.. figure:: 4umvte.thumbnail.jpg
+  :target: 4umvte.jpg

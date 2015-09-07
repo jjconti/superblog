@@ -1,0 +1,4 @@
+Caí a un asado pensando que llegaba tarde y termine haciéndome cargo.
+
+.. figure:: 8bcizl.thumbnail.jpg
+  :target: 8bcizl.jpg

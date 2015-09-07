@@ -1,0 +1,4 @@
+En la laguna Setubal.
+
+.. figure:: 36tbf4.thumbnail.jpg
+  :target: 36tbf4.jpg

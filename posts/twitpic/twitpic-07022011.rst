@@ -1,0 +1,4 @@
+Llueve con todo en Santa Fe!
+
+.. figure:: 3xfr64.thumbnail.jpg
+  :target: 3xfr64.jpg

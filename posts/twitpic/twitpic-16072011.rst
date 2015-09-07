@@ -1,0 +1,4 @@
+Estuvieron ricos!
+
+.. figure:: 5r25lj.thumbnail.jpg
+  :target: 5r25lj.jpg

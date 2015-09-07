@@ -1,0 +1,4 @@
+Hoy comimos en el Club Sirio Libanes. Bueno y barato.
+
+.. figure:: 53h2yq.thumbnail.jpg
+  :target: 53h2yq.jpg

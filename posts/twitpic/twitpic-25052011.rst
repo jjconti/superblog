@@ -1,0 +1,4 @@
+Sale locro!
+
+.. figure:: 52e87a.thumbnail.jpg
+  :target: 52e87a.jpg

@@ -1,0 +1,4 @@
+Mañana van a ser escabeche.
+
+.. figure:: 4bc0dr.thumbnail.jpg
+  :target: 4bc0dr.jpg

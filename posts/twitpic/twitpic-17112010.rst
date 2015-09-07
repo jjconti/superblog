@@ -1,0 +1,4 @@
+premio
+
+.. figure:: 37hxyl.thumbnail.jpg
+  :target: 37hxyl.jpg

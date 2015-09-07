@@ -1,0 +1,4 @@
+Ayer en la Catedral, Soria.
+
+.. figure:: 41xysx.thumbnail.jpg
+  :target: 41xysx.jpg

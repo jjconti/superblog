@@ -1,0 +1,4 @@
+Feliz Navidad!
+
+.. figure:: 7xdrfc.thumbnail.jpg
+  :target: 7xdrfc.jpg

@@ -1,0 +1,4 @@
+Este es el llavero de `#PyConAr <https://twitter.com/hashtag/PyConAr>`_ / `@ninoroldan <https://twitter.com/ninoroldan>`_ `@ktemo <https://twitter.com/ktemo>`_
+
+.. figure:: 6u2zxg.thumbnail.jpg
+  :target: 6u2zxg.jpg

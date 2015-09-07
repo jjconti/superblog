@@ -1,0 +1,4 @@
+Adivinan qué es?
+
+.. figure:: 38lqqv.thumbnail.jpg
+  :target: 38lqqv.jpg

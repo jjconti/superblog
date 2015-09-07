@@ -1,0 +1,4 @@
+Jeep
+
+.. figure:: 2ypzda.thumbnail.jpg
+  :target: 2ypzda.jpg

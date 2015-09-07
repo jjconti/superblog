@@ -1,0 +1,4 @@
+sale salagna!
+
+.. figure:: 2ud98d.thumbnail.jpg
+  :target: 2ud98d.jpg

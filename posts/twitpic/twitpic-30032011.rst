@@ -1,0 +1,4 @@
+Tu turno.
+
+.. figure:: 4etbnb.thumbnail.jpg
+  :target: 4etbnb.jpg

@@ -1,0 +1,4 @@
+Los mejores vigilantes.
+
+.. figure:: 4q4diu.thumbnail.jpg
+  :target: 4q4diu.jpg

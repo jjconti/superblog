@@ -1,0 +1,4 @@
+Al fin llego el libro impreso x Lulu.com
+
+.. figure:: 5p1q79.thumbnail.jpg
+  :target: 5p1q79.jpg

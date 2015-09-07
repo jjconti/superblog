@@ -1,0 +1,4 @@
+Desde un cuarto piso en Santa Fe.
+
+.. figure:: 4ihq7a.thumbnail.jpg
+  :target: 4ihq7a.jpg

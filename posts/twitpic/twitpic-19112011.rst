@@ -1,0 +1,4 @@
+Como nos atienden de `@astaffolani <https://twitter.com/astaffolani>`_
+
+.. figure:: 7gj8vm.thumbnail.jpg
+  :target: 7gj8vm.jpg

@@ -1,0 +1,4 @@
+Libros que compre en la Feria del Libro de Santa Fe:
+
+.. figure:: 6mt7wn.thumbnail.jpg
+  :target: 6mt7wn.jpg

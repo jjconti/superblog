@@ -1,0 +1,4 @@
+Con uds. El Ing. Grando.
+
+.. figure:: 3yg2p4.thumbnail.jpg
+  :target: 3yg2p4.jpg

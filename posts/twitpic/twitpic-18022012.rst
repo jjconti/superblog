@@ -1,0 +1,4 @@
+Con lentes... prestados...
+
+.. figure:: 8ljhxz.thumbnail.jpg
+  :target: 8ljhxz.jpg

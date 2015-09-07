@@ -1,0 +1,4 @@
+Un teletipo de los modernos.
+
+.. figure:: 35122p.thumbnail.jpg
+  :target: 35122p.jpg

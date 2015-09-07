@@ -1,0 +1,4 @@
+Hoy me hice con dos libros de Borges.
+
+.. figure:: 6dkruv.thumbnail.jpg
+  :target: 6dkruv.jpg

@@ -1,0 +1,4 @@
+Las herramientas del nuevo Ing.
+
+.. figure:: 3zhz2o.thumbnail.jpg
+  :target: 3zhz2o.jpg

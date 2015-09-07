@@ -1,0 +1,4 @@
+Hoy estuve en la Fiesta de Guadalupe.
+
+.. figure:: 4vau9j.thumbnail.jpg
+  :target: 4vau9j.jpg

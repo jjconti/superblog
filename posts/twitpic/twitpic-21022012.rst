@@ -1,0 +1,4 @@
+La venganza de los nerds.
+
+.. figure:: 8mmq05.thumbnail.jpg
+  :target: 8mmq05.jpg

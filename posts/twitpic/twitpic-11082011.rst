@@ -1,0 +1,4 @@
+El viernes voy a ver actuar a `@melipuccinelli <https://twitter.com/melipuccinelli>`_
+
+.. figure:: 645c5a.thumbnail.jpg
+  :target: 645c5a.jpg

@@ -1,0 +1,4 @@
+Primer lavado con `@lapucho <https://twitter.com/lapucho>`_
+
+.. figure:: 65m7j2.thumbnail.jpg
+  :target: 65m7j2.jpg

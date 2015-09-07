@@ -1,0 +1,4 @@
+Pizza de perejil. Plato mallorquín de la flia. Algún dia sale receta.
+
+.. figure:: 8na86z.thumbnail.jpg
+  :target: 8na86z.jpg

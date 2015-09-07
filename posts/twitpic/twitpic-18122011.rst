@@ -1,0 +1,4 @@
+Los premios PH.
+
+.. figure:: 7uwouo.thumbnail.jpg
+  :target: 7uwouo.jpg

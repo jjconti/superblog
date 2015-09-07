@@ -1,0 +1,4 @@
+Carbon fuegos artificiales.
+
+.. figure:: 4ls7wm.thumbnail.jpg
+  :target: 4ls7wm.jpg

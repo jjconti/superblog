@@ -1,0 +1,4 @@
+`@lapucho <https://twitter.com/lapucho>`_ corrigiendo examenes de Analisis Matematico 2
+
+.. figure:: 7dj82i.thumbnail.jpg
+  :target: 7dj82i.jpg

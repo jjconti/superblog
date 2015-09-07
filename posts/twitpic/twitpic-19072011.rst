@@ -1,0 +1,4 @@
+Submarino con la barra de chocolate con forma de cuchara.
+
+.. figure:: 5she9r.thumbnail.jpg
+  :target: 5she9r.jpg

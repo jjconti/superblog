@@ -1,0 +1,4 @@
+Pavos bebe:
+
+.. figure:: 7qygin.thumbnail.jpg
+  :target: 7qygin.jpg

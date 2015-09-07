@@ -1,0 +1,4 @@
+Un montón de artículos interesantes en el CACM de este mes.
+
+.. figure:: 2w20t7.thumbnail.jpg
+  :target: 2w20t7.jpg
