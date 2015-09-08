@@ -1,5 +1,5 @@
-.. title: import_goodreads plugin for Nikola
-.. slug: import_goodreads-plugin-for-nikola
+.. title: import_goodreads (plugin para Nikola)
+.. slug: import_goodreads-plugin-para-nikola
 .. date: 2015-09-02 15:43:15 UTC-03:00
 .. tags: Nikola, Python, Goodreads, import_goodreads
 .. category: 
