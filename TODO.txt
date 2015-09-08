@@ -9,4 +9,5 @@ Importar cuentos en latex
 Importar posts lugcos
 Importar fotos de http://twitpic.com/photos/jjconti
 Random/last photo (plugin)
+Importar de Lugli. Ej: http://lugli.org.ar/index.php/1%C2%BA_Jornada_Python_en_Santa_Fe
 Tags a agregar: Grando, Joel, Setubal. Checkear si en un post aparece un tag pero no lo tiene.
