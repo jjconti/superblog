@@ -127,6 +127,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/que-es-este-blog/", "¿Qué es este blog?"),
         ("/fotos/", "Fotos"),
         ("/archivo/", "Archivo"),
         ("/etiquetas/", "Etiquetas"),
@@ -219,10 +220,10 @@ POSTS = (
 )
 
 PAGES = (
-    ("stories/*.rst", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.rst", "", "story.tmpl"),
+    ("stories/*.txt", "", "story.tmpl"),
     ("stories/wordpress/*.md", "stories", "story.tmpl"),
-    ("stories/*.html", "stories", "story.tmpl"),
+    ("stories/*.html", "", "story.tmpl"),
 )
 
 
