@@ -26,7 +26,9 @@
         %endfor
         </ul>
 	<br/><span class="tags fa fa-user"></span>${post.author()}
-	<br/><span class="tags fa fa-calendar"></span>${post.formatted_date('%d %B, %Y')}
+	<br/><span class="tags fa fa-calendar"></span>${post.formatted_date('%d de ')}
+	<a href="${_link("archive", post.formatted_date('%Y/%m'))}">${post.formatted_date('%B')}</a> de
+	<a href="${_link("archive", post.formatted_date('%Y'))}">${post.formatted_date('%Y')}</a>
 	</small>
     %endif
 </%def>
