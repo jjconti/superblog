@@ -212,11 +212,10 @@ DATE_FANCINESS = 2
 #
 
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/nikola/*.rst", "posts", "post.tmpl"),
     ("posts/wordpress/*.md", "posts", "post.tmpl"),
     ("posts/goodreads/*.md", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
+    ("posts/twitpic/*.rst", "posts", "post.tmpl"),
 )
 
 PAGES = (
@@ -614,7 +613,12 @@ GALLERY_FOLDERS = {"galleries": "fotos"}
 # (the thumbnail has ``.thumbnail`` added before the file extension).
 # The format is a dictionary of {source: relative destination}.
 
-IMAGE_FOLDERS = {'images': ''}
+IMAGE_FOLDERS = {'images/posts/nikola': 'posts',
+                 'images/posts/wordpress': 'posts',
+                 'images/posts/twitpic': 'posts',
+                 'images/posts/nokia': 'posts'
+}
+#IMAGE_FOLDERS = {'images': ''}
 IMAGE_THUMBNAIL_SIZE = 580
 
 # #############################################################################
