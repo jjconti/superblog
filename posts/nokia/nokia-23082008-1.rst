@@ -1,0 +1,4 @@
+Peña folklórica.
+
+.. figure:: 200808230203451_3426132759.thumbnail.jpg
+  :target: 200808230203451_3426132759.jpg

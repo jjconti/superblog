@@ -1,0 +1,4 @@
+Navidad.
+
+.. figure:: 200812090005201_3426132759.thumbnail.jpg
+  :target: 200812090005201_3426132759.jpg

@@ -1,0 +1,4 @@
+3er PyDay de Santa Fe.
+
+.. figure:: 200810041327011_3426132759.thumbnail.jpg
+  :target: 200810041327011_3426132759.jpg

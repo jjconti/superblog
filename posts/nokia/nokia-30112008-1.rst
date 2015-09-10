@@ -1,0 +1,4 @@
+Albino y Juanita.
+
+.. figure:: 200811301023361_3426132759.thumbnail.jpg
+  :target: 200811301023361_3426132759.jpg

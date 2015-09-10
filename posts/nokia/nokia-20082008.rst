@@ -1,0 +1,4 @@
+En el colectivo.
+
+.. figure:: 200808201249171_3426132759.thumbnail.jpg
+  :target: 200808201249171_3426132759.jpg

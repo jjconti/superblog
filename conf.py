@@ -216,6 +216,7 @@ POSTS = (
     ("posts/wordpress/*.md", "posts", "post.tmpl"),
     ("posts/goodreads/*.md", "posts", "post.tmpl"),
     ("posts/twitpic/*.rst", "posts", "post.tmpl"),
+    ("posts/nokia/*.rst", "posts", "post.tmpl"),
 )
 
 PAGES = (

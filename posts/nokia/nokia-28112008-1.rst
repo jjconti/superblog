@@ -1,0 +1,4 @@
+Libraco.
+
+.. figure:: 200811281714111_3426132759.thumbnail.jpg
+  :target: 200811281714111_3426132759.jpg

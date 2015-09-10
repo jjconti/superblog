@@ -1,0 +1,4 @@
+Basílica de Guadalupe.
+
+.. figure:: 200808161726071_3426132759.thumbnail.jpg
+  :target: 200808161726071_3426132759.jpg

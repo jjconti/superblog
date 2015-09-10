@@ -1,0 +1,4 @@
+Rubik armado.
+
+.. figure:: 200808231059471_3426132759.thumbnail.jpg
+  :target: 200808231059471_3426132759.jpg

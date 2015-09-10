@@ -1,0 +1,4 @@
+Monedas do Brasil.
+
+.. figure:: 200809091934191_3426132759.thumbnail.jpg
+  :target: 200809091934191_3426132759.jpg

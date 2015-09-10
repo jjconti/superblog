@@ -1,0 +1,4 @@
+Joel. Haciendo Cappuccino.
+
+.. figure:: 200808172357002_3426132759.thumbnail.jpg
+  :target: 200808172357002_3426132759.jpg

@@ -1,0 +1,4 @@
+En Aldao.
+
+.. figure:: 200810121012272_3426132759.thumbnail.jpg
+  :target: 200810121012272_3426132759.jpg

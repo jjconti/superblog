@@ -1,0 +1,4 @@
+Pájaro muerto.
+
+.. figure:: 200904180202364497_3426132759.thumbnail.jpg
+  :target: 200904180202364497_3426132759.jpg

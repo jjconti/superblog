@@ -1,0 +1,4 @@
+Proyecto final de carrera.
+
+.. figure:: 200812162123411_3426132759.thumbnail.jpg
+  :target: 200812162123411_3426132759.jpg

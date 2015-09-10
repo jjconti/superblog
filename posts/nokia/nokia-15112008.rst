@@ -1,0 +1,4 @@
+En el kiosco de Pablito.
+
+.. figure:: 200811150017322_3426132759.thumbnail.jpg
+  :target: 200811150017322_3426132759.jpg

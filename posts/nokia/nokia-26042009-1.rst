@@ -1,0 +1,4 @@
+Viendo a Colón.
+
+.. figure:: 200904261716374112_3426132759.thumbnail.jpg
+  :target: 200904261716374112_3426132759.jpg

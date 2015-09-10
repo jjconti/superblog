@@ -1,0 +1,4 @@
+Tecnología de punta...
+
+.. figure:: 200904031511583698_3426132759.thumbnail.jpg
+  :target: 200904031511583698_3426132759.jpg

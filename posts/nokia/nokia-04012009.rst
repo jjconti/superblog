@@ -1,0 +1,4 @@
+Dulce de higo.
+
+.. figure:: 200901041933453_3426132759.thumbnail.jpg
+  :target: 200901041933453_3426132759.jpg

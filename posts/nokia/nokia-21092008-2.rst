@@ -1,0 +1,4 @@
+Día del amigo.
+
+.. figure:: 200809211727501_3426132759.thumbnail.jpg
+  :target: 200809211727501_3426132759.jpg

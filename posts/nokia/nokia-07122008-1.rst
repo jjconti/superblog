@@ -1,0 +1,4 @@
+Gallinas y pavos.
+
+.. figure:: 200812071241223_3426132759.thumbnail.jpg
+  :target: 200812071241223_3426132759.jpg

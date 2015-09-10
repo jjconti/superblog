@@ -1,0 +1,4 @@
+Noche de cartas.
+
+.. figure:: 200808282104423_3426132759.thumbnail.jpg
+  :target: 200808282104423_3426132759.jpg

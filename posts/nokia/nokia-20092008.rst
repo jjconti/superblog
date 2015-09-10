@@ -1,0 +1,4 @@
+Curso de seguridad.
+
+.. figure:: 200809201049511_3426132759.thumbnail.jpg
+  :target: 200809201049511_3426132759.jpg

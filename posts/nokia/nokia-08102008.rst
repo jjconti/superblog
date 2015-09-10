@@ -1,0 +1,4 @@
+Biblioteca.
+
+.. figure:: 200810081946571_3426132759.thumbnail.jpg
+  :target: 200810081946571_3426132759.jpg

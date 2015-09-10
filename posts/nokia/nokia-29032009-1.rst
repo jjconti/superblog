@@ -1,0 +1,4 @@
+Asado listo.
+
+.. figure:: 200903292101164329_3426132759.thumbnail.jpg
+  :target: 200903292101164329_3426132759.jpg

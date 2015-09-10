@@ -1,0 +1,4 @@
+Lógica de primer orden.
+
+.. figure:: 200808142026031_3426132759.thumbnail.jpg
+  :target: 200808142026031_3426132759.jpg

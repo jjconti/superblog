@@ -1,0 +1,4 @@
+Visitantes de Córdoba en el 3er PyDay de Santa Fe.
+
+.. figure:: 200810032320331_3426132759.thumbnail.jpg
+  :target: 200810032320331_3426132759.jpg
