@@ -2,7 +2,7 @@
 
 
 
-Hoy con un Motorolla Milestone que tiene más capacidad de procesamiento que las computadoras que llevaron al hombre a la luna y más conectividad muchos países, el tema es más sencillo.
+Hoy con un Motorolla Milestone que tiene más capacidad de procesamiento que las computadoras que llevaron al hombre a la luna y más conectividad que muchos países, el tema es más sencillo.
 
 
 
