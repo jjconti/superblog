@@ -31,6 +31,7 @@ Falta
 * Mejorar como se ven los posts importados de WordPress
 * Marcarlos visualmente
 * Agregar buscador
+* Mejoras de estilo: bottom margin para figure
 * Rescatar `articulso viejos </stories/articulos/>`_
 * `Importar tweets </posts/importar-tweets-al-blog/>`_
 * Importar posts de rubylit
