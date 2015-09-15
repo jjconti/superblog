@@ -30,6 +30,7 @@ Falta
 * Hacer que se vean los comentarios viejos
 * Mejorar como se ven los posts importados de WordPress
 * Marcarlos visualmente
+* Agregar buscador
 * Rescatar `articulso viejos </stories/articulos/>`_
 * `Importar tweets </posts/importar-tweets-al-blog/>`_
 * Importar posts de rubylit
@@ -40,3 +41,5 @@ Falta
 * Importar de Lugli. Ej: http://lugli.org.ar/index.php/1%C2%BA_Jornada_Python_en_Santa_Fe
 * Tags a agregar: Grando, Joel. Checkear si en un post aparece un tag pero no lo tiene.
 * Chequear urls rotas
+* Stackoverflow?
+* Listas de correo? Lugli, PyAr, Grulic, LUGAr?
