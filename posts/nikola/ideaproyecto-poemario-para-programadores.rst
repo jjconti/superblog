@@ -10,7 +10,7 @@
 Hace más o menos un año tengo una idea en la cabeza: crear un libro de poemas para programadores.
 
 ¿Qué es un "poema para programador"? La definición puede ser discutida, pero en este contexto
-sería un poema (¿común?) con algún condimente que hace que unp rogramdor le encuentre una
+sería un poema (¿común?) con algún condimente que hace que un programdor le encuentre una
 vuelta más de rosca/lo entienda en otro sentido.
 
 El "formato" de los poemas que contendría el libro es bastante variado, desde el verso libre
@@ -55,7 +55,7 @@ El programador:
     ¡Error de sintaxis!
     Falta un punto y coma.
     ¡Error de sintaxis!
-    Carácter inválido en el nombre es la variable. 
+    Carácter inválido en el nombre de la variable. 
     ¡Error de sintaxis!
     Llave no cerrada.
     ¡Error de sintaxis!
@@ -64,7 +64,7 @@ El programador:
 
 El libro, además de los poemas contendría:
 
-* Un prólogo titulado "¿Cómo leer un poema?" que able sobre cómo leer en voz alta un poema,
+* Un prólogo titulado "¿Cómo leer un poema?" que hable sobre cómo leer en voz alta un poema,
   acaso la úna forma de leerlo realmente.
 
 * Porciones de código que son poemas (tanto por contenido por lo que manifestaron). Por ejemplo, el primer ping.c.
@@ -80,4 +80,4 @@ Mi idea es que el libro sea financiado por empresas del sector informático. A c
 obtendrían publicidad: su logo estaría en la contratapa y se enviarían ejemplares (muchos)
 a conferencias para ser regalados entre los asistentes.
 
-¿Habrá empresas intersadas en esta idea?
+¿Habrá empresas intersadas en esta idea? ¿Habrá programadores interesados en el libro?
