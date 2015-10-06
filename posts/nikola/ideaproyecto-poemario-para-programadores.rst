@@ -10,7 +10,7 @@
 Hace más o menos un año tengo una idea en la cabeza: crear un libro de poemas para programadores.
 
 ¿Qué es un "poema para programador"? La definición puede ser discutida, pero en este contexto
-sería un poema (¿común?) con algún condimente que hace que un programdor le encuentre una
+sería un poema (¿común?) con algún condimente que hace que un programador le encuentre una
 vuelta más de rosca/lo entienda en otro sentido.
 
 El "formato" de los poemas que contendría el libro es bastante variado, desde el verso libre
@@ -18,54 +18,49 @@ hasta la métrica dura. Dejo dos ejemplos.
 
 El programador:
 
-::
-
-    Me desvela en la noche, 
-    oscuro programa.
-    Códigos malévolos,
-    indescifrable anagrama.
-
-    Escribir instrucciones,
-    malditas sentencias.
-    Quien en un lugar programa,
-    en otro es ausencia.
-
-    Combinar comandos,
-    pensar algoritmos.
-    Manipular datos,
-    tipear a buen ritmo.
-
-    Exprime el cerebro,
-    modelando futuros.
-    La poesía se forma
-    de letras y números.
-
-    La noche no termina
-    hasta no verlo andando.
-    Máquina a cafeína
-    que sigue tipeando.
+    | Me desvela en la noche, 
+    | oscuro programa.
+    | Códigos malévolos,
+    | indescifrable anagrama.
+    |
+    | Escribir instrucciones,
+    | malditas sentencias.
+    | Quien en un lugar programa,
+    | en otro es ausencia.
+    |
+    | Combinar comandos,
+    | pensar algoritmos.
+    | Manipular datos,
+    | tipear a buen ritmo.
+    |
+    | Exprime el cerebro,
+    | modelando futuros.
+    | La poesía se forma
+    | de letras y números.
+    |
+    | La noche no termina
+    | hasta no verlo andando.
+    | Máquina a cafeína
+    | que sigue tipeando.
 
 ¡Error de sintaxis!:
-
-::
 	
-    La computadora nos grita en la cara.
-    ¡Error de sintaxis!
-    Demasiados paréntesis. 
-    ¡Error de sintaxis!
-    Falta un punto y coma.
-    ¡Error de sintaxis!
-    Carácter inválido en el nombre de la variable. 
-    ¡Error de sintaxis!
-    Llave no cerrada.
-    ¡Error de sintaxis!
-    No se puede compilar el poema.
-
+    | La computadora nos grita en la cara.
+    | ¡Error de sintaxis!
+    | Demasiados paréntesis. 
+    | ¡Error de sintaxis!
+    | Falta un punto y coma.
+    | ¡Error de sintaxis!
+    | Carácter inválido en el nombre de la variable. 
+    | ¡Error de sintaxis!
+    | Llave no cerrada.
+    | ¡Error de sintaxis!
+    | No se puede compilar el poema.
 
 El libro, además de los poemas contendría:
 
 * Un prólogo titulado "¿Cómo leer un poema?" que hable sobre cómo leer en voz alta un poema,
-  acaso la úna forma de leerlo realmente.
+  acaso la única forma de leerlo realmente.
 
 * Porciones de código que son poemas (tanto por contenido por lo que manifestaron). Por ejemplo, el primer ping.c.
 
@@ -80,4 +75,7 @@ Mi idea es que el libro sea financiado por empresas del sector informático. A c
 obtendrían publicidad: su logo estaría en la contratapa y se enviarían ejemplares (muchos)
 a conferencias para ser regalados entre los asistentes.
 
-¿Habrá empresas intersadas en esta idea? ¿Habrá programadores interesados en el libro?
+¿Habrá empresas interesadas en esta idea? ¿Habrá programadores interesados en el libro?
+
+**Update:** el monto para las empresas rondaría los $3000. Con eso, asegurando 3 o 4 empresas aspiro a hacer una tirada
+inicial de 500 ejemplares.

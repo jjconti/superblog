@@ -1,7 +1,7 @@
 .. title: Audio de Desde el bunker
 .. slug: audio-de-desde-el-bunker
 .. date: 2015-09-24 21:51:23 UTC-03:00
-.. tags: Desde el bunker, Xolopes, Santa Furia, Gonzalo Vega 
+.. tags: radio, audio, Desde el bunker, Xolopes, Santa Furia, Gonzalo Vega 
 .. category: 
 .. link: 
 .. description: 
