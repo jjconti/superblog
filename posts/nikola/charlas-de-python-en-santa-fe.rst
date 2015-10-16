@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-El próximo sábado en la FICH (barrio El Poso) se va a llevar a cabo el `4to PyDay <http://pyday.lugli.org.ar/>`_  en la ciudad. Un PyDay es un día
+El próximo sábado en la FICH (barrio El Pozo) se va a llevar a cabo el `4to PyDay <http://pyday.lugli.org.ar/>`_  en la ciudad. Un PyDay es un día
 de charlas sobre Python orientadas principalmente a gente que está empezando con el lenguaje.
 
 Yo voy a dar una en la que comparo Python con otros lenguajes que usé para trabajar.
