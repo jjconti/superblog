@@ -20,13 +20,14 @@ Desde entonces le hice algunas mejoras:
 * Encabezado y pie configurables
 * Permite palabras con espacios (usando comillas). Ejemplo:
 
-Ejemplo del pdf generado: https://github.com/jjconti/sopa-de-letras/blob/master/output_example.pdf
 
 .. code-block:: bash
 
     python wordsearch.py hard word1 "word with spaces" word3
 
 * Permite caracteres no ascii en las palabras (por ejemplo ñ, á, é, í, ó, ú)
+
+Ejemplo del pdf que genera el script: https://github.com/jjconti/sopa-de-letras/blob/master/output_example.pdf
 
 Mi versión se puede instalar desde: https://github.com/jjconti/sopa-de-letras/
 
