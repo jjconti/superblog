@@ -616,7 +616,8 @@ GALLERY_FOLDERS = {"galleries": "fotos"}
 IMAGE_FOLDERS = {'images/posts/nikola': 'posts',
                  'images/posts/wordpress': 'posts',
                  'images/posts/twitpic': 'posts',
-                 'images/posts/nokia': 'posts'
+                 'images/posts/nokia': 'posts',
+                 'images/stories': '',
 }
 #IMAGE_FOLDERS = {'images': ''}
 IMAGE_THUMBNAIL_SIZE = 580
