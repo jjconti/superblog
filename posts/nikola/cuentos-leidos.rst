@@ -10,7 +10,7 @@
 Después de una entrevista en la radio, le propuse a los conductores que pasen un cuento mío por programa y aceptaron.
 
 Ese mismo día pregunté en Twitter si había algún locutor/a que quiera hacerme el favor de leer algunos textos míos porque yo leo falta.
-Seies segundos después obtuve una respuesta. Alguien que no conocía, alguien con quien nos seguíamos desde hacía solo un día, se ofrecía para el trabajo.
+Seis segundos después obtuve una respuesta. Alguien que no conocía, alguien con quien nos seguíamos desde hacía solo un día, se ofrecía para el trabajo.
 
 Estos son los cuentos leídos que se transmitieron antes de que termine el año:
 
