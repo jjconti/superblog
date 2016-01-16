@@ -1,4 +1,4 @@
-.. title: Los Lavalle Menendez
+.. title: Los Lavalle Menéndez
 .. slug: los-lavalle-menendez
 .. date: 2015-09-01 01:16:33 UTC-03:00
 .. tags: ficción, taller
