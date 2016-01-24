@@ -12,7 +12,7 @@ Me divierto escribiendo e intentado que esos escritos lleguen al mundo físico e
 En 2009 empecé a escribir algunos cuentos sin orden ni disiplina. En un momento quise verlos
 en papel y me las arreglé para que pase.
 Mis dos primeros libros fueron *La máquina de los cuentos* y *Los caballeros de la Rosa*.
-De ellos rescato algunos textos pero también reconozco que otros fueron muy presipitados.
+De ellos rescato algunos textos pero también reconozco que otros fueron muy precipitados.
 
 En 2012 empecé a participar del taller *El brillo de la palabra* y pude desarrollar mejor
 muchas ideas que tenía así como obtener nuevos disparadores para textos impensados.
