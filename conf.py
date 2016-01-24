@@ -128,6 +128,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/que-es-este-blog/", "¿Qué es este blog?"),
+        ("/libros/", "Libros"),
         ("/fotos/", "Fotos"),
         ("/archivo/", "Archivo"),
         ("/etiquetas/", "Etiquetas"),
@@ -444,7 +445,7 @@ HIDDEN_AUTHORS = ['Guest']
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Create per-month archives instead of per-year
 CREATE_MONTHLY_ARCHIVE = True
@@ -617,6 +618,7 @@ IMAGE_FOLDERS = {'images/posts/nikola': 'posts',
                  'images/posts/wordpress': 'posts',
                  'images/posts/twitpic': 'posts',
                  'images/posts/nokia': 'posts',
+                 'images/stories/index': '',
                  'images/stories': '',
 }
 #IMAGE_FOLDERS = {'images': ''}
