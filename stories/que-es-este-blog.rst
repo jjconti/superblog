@@ -33,7 +33,7 @@ Falta
 * Agregar buscador
 * Importar álbumns de Facebook (hay un complemente de Chrome para exportarlos)
 * Mejoras de estilo: bottom margin para figure
-* Rescatar `articulso viejos </stories/articulos/>`_
+* Rescatar `articulos viejos </stories/articulos/>`_
 * `Importar tweets </posts/importar-tweets-al-blog/>`_
 * Importar posts de rubylit
 * Add tag "english"
