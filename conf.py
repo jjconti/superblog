@@ -214,7 +214,8 @@ DATE_FANCINESS = 2
 
 POSTS = (
     ("posts/nikola/*.rst", "posts", "post.tmpl"),
-    ("posts/wordpress/*.md", "posts", "post.tmpl"),
+   # ("posts/wordpress/migrated/*.rst", "posts", "post_migrated.tmpl"),
+    ("posts/wordpress/*.md", "posts", "post_migrated.tmpl"),
     ("posts/goodreads/*.html", "posts", "post.tmpl"),
     ("posts/twitpic/*.rst", "posts", "post.tmpl"),
 )
