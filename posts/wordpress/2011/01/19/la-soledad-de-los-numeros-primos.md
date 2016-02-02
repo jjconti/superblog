@@ -10,7 +10,7 @@ El libro habla sobre la soledad, y con saltos de varios años va contando la his
 
 <blockquote><em>En  una clase de primer curso Mattia había estudiado que entre los números  primos hay algunos aún más especiales. Los matemáticos los llaman  números primos gemelos: son parejas de números primos que están juntos, o  mejor dicho, casi juntos, pues entre ellos media siempre un número par  que los impide tocarse de verdad. Números como el 11 y el 13, el 17 y el  19, o el 41 y el 43. Mattia pensaba que Alice y él eran así, dos primos  gemelos, solos y perdidos, juntos pero no lo bastante para tocarse de  verdad.</em></blockquote>
 
-Dos notas: <em>It's not about mathds</em>. No me gustó el final.
+Dos notas: <em>It's not about maths</em>. No me gustó el final.
 
 
 
