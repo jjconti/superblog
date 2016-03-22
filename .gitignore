@@ -8,3 +8,4 @@ files/wp-content
 .doit.db
 plugins/
 *.pyc
+state_data.json
