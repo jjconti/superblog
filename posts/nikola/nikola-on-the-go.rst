@@ -9,8 +9,8 @@
 
 Bueno, creo que tengo listo un sistema que me permitirá usar nikola desde mi notebook de viaje.
 
-Después de dedicarle bastante tiempo a instalarlo sin éxito, opté por instalrlo en el servidor que sirve este blog
-y conectarme por ssh para subir los .rst de los posts nuevos y publicar :)
+Después de dedicarle bastante tiempo a instalarlo sin éxito, opté por instalrlo en el servidor que sirve este blog, subir los posts nuevos via git
+y conectarme por ssh para compilar y publicar :)
 
 Esperemos que funcione!
 

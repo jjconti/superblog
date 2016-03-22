@@ -29,3 +29,10 @@ Pienso seguir experimentándolos.
 
 .. figure:: paper-towns.thumbnail.png
    :target: paper-towns.png
+
+**Update:** una categoría en la que el audiobook pierde contra el libro
+tradicional es en la de presumir. Cuando vas leyendo un libro en el colectivo, 
+otro puede ver la tapa, puede ver que estás leyendo tal o cual libro y si 
+también lo leyó puede decirte "hey, yo también lo leí". 
+
+Eso no se puede hacer con los audiobooks.
