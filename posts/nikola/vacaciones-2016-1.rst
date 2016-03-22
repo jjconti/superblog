@@ -1,6 +1,6 @@
 .. title: Diario de vacaciones, día 1
-.. slug: vacaciones-1
-.. date: 2016-03-21 14:14:30 UTC-03:0}0
+.. slug: vacaciones-2016-1
+.. date: 2016-03-21 14:14:30 UTC-03:00
 .. tags: vacaciones,Punta Cana
 .. category: 
 .. link: 
@@ -42,7 +42,7 @@ primer paso *informarse*. Esto va desde estadísticas sobre cuán seguro es vola
 en avión (mucho) hasta física de aeronaves.
 
 Por mi parte, probé un método propio que dio muy buenos resultados: me calcé
-los audiculares, puse un `audioook <link://post/audiobooks>`_ a todo volumen
+los audiculares, puse un `audioook <link://tag/audiobooks>`_ a todo volumen
 y traté de concentrarme en la historia hasta que el avión esté estable.
 
 Estoy "leyendo" Bajo la misma estrella, de John Green.

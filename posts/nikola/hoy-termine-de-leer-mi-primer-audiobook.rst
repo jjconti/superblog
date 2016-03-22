@@ -17,7 +17,7 @@ para el celular, la sincronización entre los distintos lugares donde podés esc
 de compartir el libro (tengo ideas para saltar esto), el precio (los libros son caros, hasta ahora
 compré solo dos con créditos gratuitos)... Peeeero como producto para el usuario final, es muy bueno.
 
-Leí `Paper Towns <link://post/goodreads-review-ciudades-de-papel-john-green/>`_. Este libro es de unas 9 horas (en papel serán unas 400 páginas (?)). Lo leí en menos de 
+Leí `Paper Towns </posts/goodreads-review-ciudades-de-papel-john-green/>`_. Este libro es de unas 9 horas (en papel serán unas 400 páginas (?)). Lo leí en menos de 
 cinco días. La versión en papel me habría llevado casi un mes. "Leí" principalmente en dos momentos, en el
 auto en lugar de escuchar radio y una tarde de domingo que la dediqué a limpiar las paredes del baño.
 
