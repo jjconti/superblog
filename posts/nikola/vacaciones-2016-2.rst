@@ -1,4 +1,4 @@
-.. title: Diaio de vacaciones 2016, día 2
+.. title: Diario de vacaciones 2016, día 2
 .. slug: vacaciones-2016-2
 .. date: 2016-03-22 20:11:15 UTC-03:00
 .. tags: vacaciones, Isla Saona

@@ -1,4 +1,4 @@
-.. title: Diaio de vacaciones 2016, día 3
+.. title: Diario de vacaciones 2016, día 3
 .. slug: vacaciones-2016-3
 .. date: 2016-03-23 20:11:15 UTC-03:00
 .. tags: vacaciones, Santo Domingo
