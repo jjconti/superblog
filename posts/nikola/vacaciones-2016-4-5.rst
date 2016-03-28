@@ -1,4 +1,4 @@
-.. title: Diaio de vacaciones 2016, días 4 y5
+.. title: Diario de vacaciones 2016, días 4 y 5
 .. slug: vacaciones-2016-4-5
 .. date: 2016-03-25 20:11:15 UTC-03:00
 .. tags: vacaciones
@@ -28,7 +28,7 @@ Comida
 Ceci estaba medio mal del estómago por lo que quiso comer lo que come cuando está así en Argentina: arroz blanco super hervido y bife de pollo a la plancha. El problema es que en los all-inclusive, si bien es verdad que abunda la comida, la comida que abunda no es la más sana del mundo (creo que ya comenté que en ese
 aspecto de la hotelería vamos para atrás por que no tomamos alcohol ni comemos a reventar). El problema entonces era conseguir "el plato prometido".
 
-Llegué al comedor y manotié una porción de pizza para ir comiendo durante el operativo (muy buena la masa). El arroz que se ofrece en el *bufete* está hervido con aceite por lo que está descartado. Le pregunté a uno de los cocineros y me ofreció "arroz de suhi", que está hervido solo en agua pero tampoco tiene sal. *Good enough". Agregué al plato unas rodajas de lo que parecía pechuga de pollo asada.
+Llegué al comedor y manotié una porción de pizza para ir comiendo durante el operativo (muy buena la masa). El arroz que se ofrece en el *bufete* está hervido con aceite por lo que está descartado. Le pregunté a uno de los cocineros y me ofreció "arroz de suhi", que está hervido solo en agua pero tampoco tiene sal. *Good enough*. Agregué al plato unas rodajas de lo que parecía pechuga de pollo asada.
 
 Caminé con mi plato hasta el Sport Bar, donde recordaba haber visto un horno microondas (en el comedor no tenían) pero cuando entré no estaba. Pregunté y me dijeron que se había roto. Le pregunté a la moza si había alguno en otro lugar y nuevamente negativa. Cuando me estaba yendo abatido me chista y me hace señas para que vuelva. "Andá al Mama Juana y pedí que te lo calienten en el horno", me dijo. "Pero no le digas que yo te dije", me advirtió".
 
