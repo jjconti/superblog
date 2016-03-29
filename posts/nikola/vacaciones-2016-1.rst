@@ -29,7 +29,7 @@ Luego rompimos una de nuestras reglas/rituales de viaje: comer liviano. Fuimos
 al Club de la Milanesa, donde nos sirvieron una milanesa del tamaño de una pizza
 grande.
 
-Mi método para envitar el miedo a volar
+Mi método para evitar el miedo a volar
 =======================================
 
 La primer vez que viajé en avión se murió un tipo abordo. La segunda, el avión

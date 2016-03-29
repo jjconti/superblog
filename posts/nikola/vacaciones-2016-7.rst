@@ -1,7 +1,7 @@
 .. title: Diario de vacaciones 2016, día 7
 .. slug: vacaciones-2016-7
 .. date: 2016-03-27 20:11:15 UTC-03:00
-.. tags: vacaciones, Playa Bavaro
+.. tags: vacaciones, Playa Bávaro
 .. category: 
 .. link: 
 .. description: 
@@ -14,10 +14,10 @@ y nos fuimos a la playa.
 
 Para mí, liviano fue: un té de limón, dos wafles, piña y un pote de cereales.
 
-Playa Bavaro
+Playa Bávaro
 ============
 
-Caminamos a Playa Bavaro, que habiamos leído era la mejor de la zona.
+Caminamos a Playa Bávaro, que habiamos leído era la mejor de la zona.
 Protector solar y al agua. Estuvimos varias horas en el agua. Yo nadaba un poco
 mar adentro, flotaba, volvía. Después caminábamos un poco más y de nuevo al agua.
 
