@@ -52,8 +52,8 @@ El hotel está conectado a uno de los *malls*, Multicentro, así que fuimos a co
 
 Como estaba muy cansado me fui a acostar. Ceci se dedicó a mapear el hotel (es enorme, 62 pisos, pileta, bares, boliche) y encontrar comida no tan cara (por ejemplo, un agua mineral Fiji de medio litro le salió 7 dólares. Lo pagamos por que tenemos 20 dólares "gratis" para gastar por noche en cualquier bar del hotel).
 
-.. figute:: vista-piso-62.thumbnail.jpeg
-   :target: vista-piso-63.jpeg
+.. figure:: vista-piso-62.thumbnail.jpeg
+   :target: vista-piso-62.jpeg
 
    Vista desde el piso 62
 
