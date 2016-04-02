@@ -137,12 +137,6 @@ Hard Rock
 
 Cierro con algnos tweets con detalles del hotel:
 
-
-Hard Rock
-=========
-
-Cierro con algnos tweets con detalles del hotel:
-
 .. raw:: html
 
 	<blockquote class="twitter-tweet" data-lang="es"><p lang="en" dir="ltr">The Beatles en el Hard Rock. <a href="https://t.co/GgsiZz8URV">pic.twitter.com/GgsiZz8URV</a></p>&mdash; Juanjo Conti (@jjconti) <a href="https://twitter.com/jjconti/status/715758086598823937">1 de abril de 2016</a></blockquote>
