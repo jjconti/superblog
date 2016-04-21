@@ -28,23 +28,6 @@ sentado al lado nuestro es famoso, vino alguien con una camiseta de Argentina
 para que le filme. Después de averiguar nos enteramos de que es Mario Alerto
 Kempes.
 
-
-El día empezó con el mejor desayuno de todas las vacaciones siendo lo más
-destacable un vasito que tenía algo rosa, esponjoso y con cereales.
-
-En un momento me voy al baño y cuando vuelvo Ceci me dice que el que está
-sentado al lado nuestro es famoso, vino alguien con una camiseta de Argentina
-para que le filme. Después de averiguar nos enteramos de que es Mario Alerto
-Kempes.
-
-El día empezó con el mejor desayuno de todas las vacaciones siendo lo más
-destacable un vasito que tenía algo rosa, esponjoso y con cereales.
-
-En un momento me voy al baño y cuando vuelvo Ceci me dice que el que está
-sentado al lado nuestro es famoso, vino alguien con una camiseta de Argentina
-para que le filme. Después de averiguar nos enteramos de que es Mario Alerto
-Kempes.
-
 .. raw:: html
 	
 	<blockquote class="twitter-tweet" data-lang="es"><p lang="es" dir="ltr">Desayunando con el Matador. <a href="https://t.co/6Wj0hiuIqp">pic.twitter.com/6Wj0hiuIqp</a></p>&mdash; Juanjo Conti (@jjconti) <a href="https://twitter.com/jjconti/status/715186999079010304">30 de marzo de 2016</a></blockquote>
