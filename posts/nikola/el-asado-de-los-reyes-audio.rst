@@ -17,4 +17,4 @@ Tuve suficiente reflejos como para apretar *rec* en el celular, así que se los 
 
 (de fondo se escucha el ruido de la lluvia)
 
-(la profe enfatisa las palabras *ritual* y *rictus* porque fuero palabras que estuvimos mencionando en la clase)
+(la profe enfatiza las palabras *ritual* y *rictus* porque fuero palabras que estuvimos mencionando en la clase)
