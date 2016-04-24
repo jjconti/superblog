@@ -48,10 +48,9 @@ Libros mencionados en clase
 
 * Fábulas salvajes, Marcelo Birmajer
 
-Tara
-====
+Tarea
+=====
 
 Mito, literatura y rito.
 
-Hacer alución a una suerte de ritual: ceremoña o cosutumbre que se repite de forma invariable de acurdo a un conjunto de normas ya establecidas. Todo rito es simbólico y suelen expresar el contenido de algún mito. Hay ritos festivos y solemnes. También hay mitos modernos, mitos en el cine, en el deporte...
-
+Escribir un texto que haga alución a una suerte de ritual. Ritual: ceremoña o cosutumbre que se repite de forma invariable de acurdo a un conjunto de normas ya establecidas. Todo rito es simbólico y suelen expresar el contenido de algún mito. Hay ritos festivos y solemnes. También hay mitos modernos, mitos en el cine, en el deporte... pensar de forma amplia.
