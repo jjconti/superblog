@@ -18,3 +18,7 @@ Por suerte no tuvieron problemas en incluírme en la grilla.
 .. raw:: html
 
 	<iframe width="100%" height="160" src="https://clyp.it/mipj0pmd/widget" frameborder="0"></iframe>
+
+.. media:: https://www.youtube.com/watch?v=ji_aaZsidUE
+
+.. media:: https://www.youtube.com/watch?v=9Uft0jD1O_k
