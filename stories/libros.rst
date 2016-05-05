@@ -18,8 +18,9 @@ En 2012 empecé a participar del taller *El brillo de la palabra* y pude desarro
 muchas ideas que tenía así como obtener nuevos disparadores para textos impensados.
 
 En 2014 cree `Automágica <link://tag/automagica>`_ para autoeditarme.
-Los libros editados hasta el momento por automágica son:
+Los libros editados hasta el momento por Automágica son:
 
 * `Xolopes (novela) </xolopes>`_
 * `Santa Furia (cuentos) </santa-furia>`_
 * `La prueba del dulce de leche (cuentos) </la-prueba>`_
+* `Carne de los Dioses (cuentos) </carne>`_
