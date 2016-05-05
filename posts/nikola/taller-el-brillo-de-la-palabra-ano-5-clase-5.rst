@@ -13,7 +13,7 @@ Clase 3: http://www.juanjoconti.com/posts/taller-el-brillo-de-la-palabra-ano-5-c
 Este año vengo faltando a las clases pares...
 
 El lector habitual de este blog (?) se habrá dado cuenta de que estos
-posts los escribo n vivo mientras transcurre la clase.
+posts los escribo en vivo mientras transcurre la clase.
 
 Tarea de la clase 3 (rituales): https://docs.google.com/document/d/1msUTY4TmUY31fxsFPK5nBF5sivpQos4F17P6nLNxPLE/edit?usp=sharing
 
@@ -33,3 +33,4 @@ Libros mencionados en clase
 Tarea
 =====
 
+Escribir un texto formado solo por preguntas. Título: ¿Qué es de la vida de _____?
