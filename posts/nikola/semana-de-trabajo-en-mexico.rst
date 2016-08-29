@@ -18,3 +18,5 @@ La semana pasada nos juntamos en México para trabajar y vernos las caras los qu
 * Semana de trabajo: https://www.facebook.com/juanjoconti/media_set?set=a.10210040611882717.1073741886.1559082191&type=3
 
 * MEX: https://www.facebook.com/juanjoconti/media_set?set=a.10210040718805390.1073741887.1559082191&type=3
+
+PS: tomé notas que eventualmente servirán para una novela.

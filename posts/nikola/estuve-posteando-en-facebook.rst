@@ -18,3 +18,5 @@ Dejo los links para no perderlos:
 * 30 de junio: Bajo la piel de Saer: https://www.facebook.com/photo.php?fbid=10209661928695874&set=a.1693125138838.91838.1559082191&type=3&theater
 
 * 3 de julio: ¿Qué me recomienda?: https://www.facebook.com/juanjoconti/posts/10209686757556580
+
+PS: este blog se va convirtiendo en una reserva de notas para mí.
