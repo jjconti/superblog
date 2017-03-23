@@ -10,6 +10,7 @@
 Este año (2016) empecé a dar cursos/talleres de Python. Los listo a continuación para tenerlos como una referencia personal:
 
 
+* Septiembre 2016 - Taller de Python en el marco de las actividades por el Día internacional del Software Libre organizado por el Gobierno de la Provincia de Santa Fe.
 * Agosto 2016 - Taller "Python para programadores X" en FICH, UNL, Santa Fe.
 * Agosto 2016 - Curso "Introducción a Python y Django" remoto dictado a través de la UTN San Francisco - 16 hs.
 * Juanjo 2016 - Taller "Python para no programadores" dictado en ADE, Santa Fe - 4hs.
