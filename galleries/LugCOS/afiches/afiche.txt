@@ -1,0 +1,18 @@
+El LugCOS es una organización sin fines de lucro que desde
+el año 2000 ayuda a difundir SOFTWARE LIBRE, software que UD,
+sin depender de nadie, puede usar, estudiar y
+compartir, software que UD sabe como funciona y que hace que  
+pueda confiar en su computadora.
+
+Una de las formas en que lo hacemos es escribiendo
+documentación libre, puedes leerla en 
+http://www.lugcos.org.ar/documentos.php
+
+Usamos el sistema operativo GNU/Linux y nos comunicamos
+a través de una lista de correos (http://www.lugcos.org.ar/lista.php),
+si querés participar de nuestra comunidad, no dejes de ponerte
+en contacto con nosotros. Te ofrecemos un espacio donde
+investigar, aprender y compartir.
+
+
+font: blue highway condensed 24
