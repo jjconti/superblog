@@ -2,8 +2,6 @@ dumps/firebirds.com.ar/
 dumps/*tgz
 cache/
 output/
-galleries/
-files/wp-content
 .idea/
 .doit.db
 plugins/
